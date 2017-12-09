@@ -2,6 +2,7 @@ qrc_*.cpp
 moc_*.cpp
 ui_*.h
 
+Intermediate
 .vs
 *.vcxproj.user
 
