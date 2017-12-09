@@ -19,6 +19,7 @@ If you would like to assist with porting this to other platforms, please let me 
 ## Screenshots
 
 [Schema Mode](https://i.imgur.com/lKRhiqU.png)
+
 [Instance Mode](https://i.imgur.com/wkGjR7Q.png)
 
 ## Downloads
