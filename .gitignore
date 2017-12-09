@@ -1,0 +1,8 @@
+qrc_*.cpp
+moc_*.cpp
+ui_*.h
+
+.vs
+*.vcxproj.user
+
+Bin/*
