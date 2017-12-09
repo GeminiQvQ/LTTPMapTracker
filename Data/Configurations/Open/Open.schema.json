@@ -1,0 +1,1924 @@
+{
+    "Items": [
+        {
+            "Map": "LW",
+            "Name": "Lost Woods - Pedestal",
+            "PositionX": -1880,
+            "PositionY": -1845,
+            "Region": "LW - Main",
+            "Rule": "LW - Lost Woods - Pedestal",
+            "RuleAccess": "Entrance"
+        },
+        {
+            "Map": "LW",
+            "Name": "Lost Woods - Mushroom",
+            "PositionX": -1548,
+            "PositionY": -1699,
+            "Region": "LW - Main",
+            "Rule": "",
+            "RuleAccess": "Entrance"
+        },
+        {
+            "Map": "LW",
+            "Name": "Lost Woods - Thief's Hideout",
+            "PositionX": -1272,
+            "PositionY": -1511,
+            "Region": "LW - Main",
+            "Rule": "",
+            "RuleAccess": "Entrance"
+        },
+        {
+            "Map": "LW",
+            "Name": "Lumberjacks - Tree",
+            "PositionX": -816,
+            "PositionY": -1739,
+            "Region": "",
+            "Rule": "LW - Lumberjacks - Tree",
+            "RuleAccess": "Entrance"
+        },
+        {
+            "Map": "DW",
+            "Name": "Death Mountain (Dark) - Bumper Cave (Top)",
+            "PositionX": -576,
+            "PositionY": -1422,
+            "Region": "",
+            "Rule": "Common - Inaccessible",
+            "RuleAccess": "Entrance"
+        },
+        {
+            "Map": "LW",
+            "Name": "Sanctuary - Bonk Cave",
+            "PositionX": -448,
+            "PositionY": -848,
+            "Region": "",
+            "Rule": "Common - Pegasus Boots",
+            "RuleAccess": "Entrance"
+        },
+        {
+            "Map": "LW",
+            "Name": "Sanctuary - Grave",
+            "PositionX": 80,
+            "PositionY": -848,
+            "Region": "",
+            "Rule": "Common - Power Glove",
+            "RuleAccess": "Entrance"
+        },
+        {
+            "Map": "DW",
+            "Name": "Palace of Darkness - Dungeon",
+            "PositionX": 1880,
+            "PositionY": -437,
+            "Region": "DW - Main - East",
+            "Rule": "",
+            "RuleAccess": "Entrance"
+        },
+        {
+            "Map": "DW",
+            "Name": "Pyramid - Item",
+            "PositionX": 327,
+            "PositionY": -214,
+            "Region": "DW - Main - East (No Pearl)",
+            "Rule": "",
+            "RuleAccess": "Entrance"
+        },
+        {
+            "Map": "DW",
+            "Name": "Misc (Dark) - Bomb Shop",
+            "PositionX": 192,
+            "PositionY": 777,
+            "Region": "DW - Main - South",
+            "Rule": "",
+            "RuleAccess": "Entrance"
+        },
+        {
+            "Map": "LW",
+            "Name": "Sanctuary - Graveyard Cave",
+            "PositionX": 288,
+            "PositionY": -925,
+            "Region": "",
+            "Rule": "LW - Sanctuary - Graveyard Cave",
+            "RuleAccess": "Entrance"
+        },
+        {
+            "Map": "LW",
+            "Name": "Sanctuary - King's Grave",
+            "PositionX": 416,
+            "PositionY": -834,
+            "Region": "",
+            "Rule": "LW - Sanctuary - King's Grave",
+            "RuleAccess": "Entrance"
+        },
+        {
+            "Map": "LW",
+            "Name": "Kakariko - Well",
+            "PositionX": -1952,
+            "PositionY": -304,
+            "Region": "LW - Main",
+            "Rule": "",
+            "RuleAccess": "Entrance"
+        },
+        {
+            "Map": "LW",
+            "Name": "Kakariko - Thief's Hut",
+            "PositionX": -1520,
+            "PositionY": -329,
+            "Region": "LW - Main",
+            "Rule": "",
+            "RuleAccess": "Entrance"
+        },
+        {
+            "Map": "LW",
+            "Name": "Kakariko - Bottle Vendor",
+            "PositionX": -1657,
+            "PositionY": -143,
+            "Region": "LW - Main",
+            "Rule": "",
+            "RuleAccess": "Entrance"
+        },
+        {
+            "Map": "LW",
+            "Name": "Kakariko - Chicken House",
+            "PositionX": -1648,
+            "PositionY": 169,
+            "Region": "LW - Main",
+            "Rule": "Common - Bomb",
+            "RuleAccess": "Entrance"
+        },
+        {
+            "Map": "LW",
+            "Name": "Kakariko - Sick Kid's House",
+            "PositionX": -1408,
+            "PositionY": 153,
+            "Region": "LW - Main",
+            "Rule": "Common - Bottle",
+            "RuleAccess": "Entrance"
+        },
+        {
+            "Map": "LW",
+            "Name": "Kakariko - Tavern (Back)",
+            "PositionX": -1392,
+            "PositionY": 272,
+            "Region": "LW - Main",
+            "Rule": "",
+            "RuleAccess": "Entrance"
+        },
+        {
+            "Map": "LW",
+            "Name": "Kakariko - Bat Cave",
+            "PositionX": -720,
+            "PositionY": 256,
+            "Region": "",
+            "Rule": "LW - Kakariko - Bat Cave",
+            "RuleAccess": "Entrance"
+        },
+        {
+            "Map": "LW",
+            "Name": "Kakariko - Library",
+            "PositionX": -1408,
+            "PositionY": 649,
+            "Region": "LW - Main",
+            "Rule": "",
+            "RuleAccess": "Entrance"
+        },
+        {
+            "Map": "LW",
+            "Name": "Kakariko - Maze Race (Prize)",
+            "PositionX": -1919,
+            "PositionY": 818,
+            "Region": "LW - Main",
+            "Rule": "",
+            "RuleAccess": "Entrance"
+        },
+        {
+            "Map": "LW",
+            "Name": "Haunted Grove - Digging Spot",
+            "PositionX": -871,
+            "PositionY": 664,
+            "Region": "LW - Main",
+            "Rule": "Common - Shovel",
+            "RuleAccess": "Entrance"
+        },
+        {
+            "Map": "LW",
+            "Name": "Haunted Grove - Cave",
+            "PositionX": -960,
+            "PositionY": 1331,
+            "Region": "",
+            "Rule": "LW - Haunted Grove - Cave",
+            "RuleAccess": "Entrance"
+        },
+        {
+            "Map": "LW",
+            "Name": "Misc - Link's House",
+            "PositionX": 192,
+            "PositionY": 777,
+            "Region": "LW - Main",
+            "Rule": "",
+            "RuleAccess": "Entrance"
+        },
+        {
+            "Map": "LW",
+            "Name": "Hyrule Castle - Secret Entrance",
+            "PositionX": 392,
+            "PositionY": -344,
+            "Region": "LW - Main",
+            "Rule": "",
+            "RuleAccess": "Entrance"
+        },
+        {
+            "Map": "LW",
+            "Name": "Hyrule Castle - Front",
+            "PositionX": 0,
+            "PositionY": -251,
+            "Region": "LW - Main",
+            "Rule": "",
+            "RuleAccess": "Entrance"
+        },
+        {
+            "Map": "LW",
+            "Name": "Hyrule Castle - Agahnim's Tower",
+            "PositionX": 0,
+            "PositionY": -411,
+            "Region": "LW - Main",
+            "Rule": "",
+            "RuleAccess": "Entrance"
+        },
+        {
+            "Map": "LW",
+            "Name": "Swamp Ruins - Dam",
+            "PositionX": -128,
+            "PositionY": 1785,
+            "Region": "LW - Main",
+            "Rule": "",
+            "RuleAccess": "Entrance"
+        },
+        {
+            "Map": "LW",
+            "Name": "Swamp Ruins - Dam (Item)",
+            "PositionX": -199,
+            "PositionY": 1759,
+            "Region": "LW - Main",
+            "Rule": "",
+            "RuleAccess": "Entrance"
+        },
+        {
+            "Map": "LW",
+            "Name": "Lake Hylia - Mini Moldorm Cave",
+            "PositionX": 624,
+            "PositionY": 1800,
+            "Region": "LW - Main",
+            "Rule": "Common - Bomb",
+            "RuleAccess": "Entrance"
+        },
+        {
+            "Map": "LW",
+            "Name": "Death Mountain - 7 Chest Cave (Middle)",
+            "PositionX": 1488,
+            "PositionY": -1165,
+            "Region": "LW - Death Mountain - East (Bottom)",
+            "Rule": "",
+            "RuleAccess": "Entrance"
+        },
+        {
+            "Map": "LW",
+            "Name": "Lake Hylia - Island",
+            "PositionX": 931,
+            "PositionY": 1348,
+            "Region": "",
+            "Rule": "LW - Lake Hylia - Island",
+            "RuleAccess": "Entrance"
+        },
+        {
+            "Map": "LW",
+            "Name": "Misc - Hobo",
+            "PositionX": 792,
+            "PositionY": 803,
+            "Region": "",
+            "Rule": "Common - Zora's Flippers",
+            "RuleAccess": "Entrance"
+        },
+        {
+            "Map": "LW",
+            "Name": "Lake Hylia - Ice Cave",
+            "PositionX": 1616,
+            "PositionY": 1108,
+            "Region": "LW - Main",
+            "Rule": "Common - Bomb",
+            "RuleAccess": "Entrance"
+        },
+        {
+            "Map": "LW",
+            "Name": "Desert of Mystery - Aginah's Cave",
+            "PositionX": -1232,
+            "PositionY": 1331,
+            "Region": "LW - Main",
+            "Rule": "",
+            "RuleAccess": "Entrance"
+        },
+        {
+            "Map": "LW",
+            "Name": "Desert of Mystery - Tablet",
+            "PositionX": -1152,
+            "PositionY": 1720,
+            "Region": "",
+            "Rule": "LW - Desert of Mystery - Tablet",
+            "RuleAccess": "Entrance"
+        },
+        {
+            "Map": "LW",
+            "Name": "Desert of Mystery - Checkerboard Cave",
+            "PositionX": -1329,
+            "PositionY": 1136,
+            "Region": "",
+            "Rule": "LW - Desert of Mystery - Checkerboard Cave",
+            "RuleAccess": "Entrance"
+        },
+        {
+            "Map": "LW",
+            "Name": "Desert of Mystery - Desert Palace - Front",
+            "PositionX": -1744,
+            "PositionY": 1213,
+            "Region": "",
+            "Rule": "LW - Desert of Mystery - Desert Palace - Front",
+            "RuleAccess": "Entrance"
+        },
+        {
+            "Map": "LW",
+            "Name": "Desert of Mystery - Ledge Item",
+            "PositionX": -1956,
+            "PositionY": 1693,
+            "Region": "LW - Desert of Mystery - Ledge",
+            "Rule": "",
+            "RuleAccess": "Entrance"
+        },
+        {
+            "Map": "LW",
+            "Name": "Desert of Mystery - Desert Palace - Back",
+            "PositionX": -1745,
+            "PositionY": 1093,
+            "Region": "LW - Desert of Mystery - Ledge",
+            "Rule": "Common - Power Glove",
+            "RuleAccess": "EntranceAndExit"
+        },
+        {
+            "Map": "LW",
+            "Name": "Eastern Ruins - Sahasrahla's Hut",
+            "PositionX": 1272,
+            "PositionY": -192,
+            "Region": "LW - Main",
+            "Rule": "",
+            "RuleAccess": "Entrance"
+        },
+        {
+            "Map": "LW",
+            "Name": "Eastern Ruins - Eastern Palace",
+            "PositionX": 1880,
+            "PositionY": -456,
+            "Region": "LW - Main",
+            "Rule": "",
+            "RuleAccess": "Entrance"
+        },
+        {
+            "Map": "LW",
+            "Name": "North East - Magic Shop",
+            "PositionX": 1232,
+            "PositionY": -678,
+            "Region": "LW - Main",
+            "Rule": "",
+            "RuleAccess": "Entrance"
+        },
+        {
+            "Map": "LW",
+            "Name": "North East - Waterfall Fairy",
+            "PositionX": 1640,
+            "PositionY": -1493,
+            "Region": "LW - North East",
+            "Rule": "Common - Zora's Flippers",
+            "RuleAccess": "Entrance"
+        },
+        {
+            "Map": "LW",
+            "Name": "Zora's Waterfall - Item",
+            "PositionX": 1840,
+            "PositionY": -1530,
+            "Region": "LW - North East",
+            "Rule": "Common - Zora's Flippers",
+            "RuleAccess": "Entrance"
+        },
+        {
+            "Map": "LW",
+            "Name": "Zora's Waterfall - King Zora",
+            "PositionX": 1887,
+            "PositionY": -1530,
+            "Region": "LW - North East",
+            "Rule": "",
+            "RuleAccess": "Entrance"
+        },
+        {
+            "Map": "LW",
+            "Name": "Death Mountain - Old Man's Cave (Entrance)",
+            "PositionX": -208,
+            "PositionY": -1089,
+            "Region": "LW - Death Mountain - West (Bottom)",
+            "Rule": "Common - Lantern",
+            "RuleAccess": "Entrance"
+        },
+        {
+            "Map": "LW",
+            "Name": "Death Mountain - Spectacle Rock Cave (Bottom)",
+            "PositionX": -48,
+            "PositionY": -1453,
+            "Region": "LW - Death Mountain - West (Bottom)",
+            "Rule": "",
+            "RuleAccess": "Entrance"
+        },
+        {
+            "Map": "LW",
+            "Name": "Death Mountain - Tower of Hera",
+            "PositionX": 248,
+            "PositionY": -1914,
+            "Region": "LW - Death Mountain - West (Top)",
+            "Rule": "",
+            "RuleAccess": "Entrance"
+        },
+        {
+            "Map": "LW",
+            "Name": "Death Mountain - Tablet",
+            "PositionX": -328,
+            "PositionY": -1974,
+            "Region": "LW - Death Mountain - West (Top)",
+            "Rule": "Common - Tablet",
+            "RuleAccess": "Entrance"
+        },
+        {
+            "Map": "LW",
+            "Name": "Death Mountain - Spiral Cave (Entrance)",
+            "PositionX": 1215,
+            "PositionY": -1678,
+            "Region": "",
+            "Rule": "LW - Death Mountain - East (Ledges)",
+            "RuleAccess": "Entrance"
+        },
+        {
+            "Map": "LW",
+            "Name": "Death Mountain - Island",
+            "PositionX": 1280,
+            "PositionY": -1976,
+            "Region": "",
+            "Rule": "LW - Death Mountain - Island",
+            "RuleAccess": "Entrance"
+        },
+        {
+            "Map": "DW",
+            "Name": "Death Mountain (Dark) - Spike Cave",
+            "PositionX": 304,
+            "PositionY": -1453,
+            "Region": "DW - Death Mountain - West (Bottom)",
+            "Rule": "",
+            "RuleAccess": "Entrance"
+        },
+        {
+            "Map": "DW",
+            "Name": "Death Mountain (Dark) - Ganon's Tower",
+            "PositionX": 256,
+            "PositionY": -1865,
+            "Region": "DW - Death Mountain - Top",
+            "Rule": "DW - Death Mountain - Ganon's Tower",
+            "RuleAccess": "Entrance"
+        },
+        {
+            "Map": "DW",
+            "Name": "Death Mountain (Dark) - Hookshot Cave (Entrance)",
+            "PositionX": 1360,
+            "PositionY": -1776,
+            "Region": "DW - Death Mountain - Top",
+            "Rule": "Common - Power Glove",
+            "RuleAccess": "Entrance"
+        },
+        {
+            "Map": "DW",
+            "Name": "Death Mountain (Dark) - Ascension Cave (Entrance)",
+            "PositionX": 1405,
+            "PositionY": -1453,
+            "Region": "DW - Death Mountain - East (Bottom)",
+            "Rule": "",
+            "RuleAccess": "Entrance"
+        },
+        {
+            "Map": "LW",
+            "Name": "Death Mountain - Mimic Cave",
+            "PositionX": 1409,
+            "PositionY": -1678,
+            "Region": "",
+            "Rule": "LW - Death Mountain - Mimic Cave",
+            "RuleAccess": "Entrance"
+        },
+        {
+            "Map": "DW",
+            "Name": "Death Mountain (Dark) - Turtle Rock (Main)",
+            "PositionX": 1808,
+            "PositionY": -1718,
+            "Region": "",
+            "Rule": "DW - Death Mountain - Turtle Rock",
+            "RuleAccess": "Entrance"
+        },
+        {
+            "Map": "DW",
+            "Name": "Pyramid - Hole",
+            "PositionX": -8,
+            "PositionY": -373,
+            "Region": "DW - Main - East",
+            "Rule": "DW - Pyramid - Hole",
+            "RuleAccess": "Entrance"
+        },
+        {
+            "Map": "DW",
+            "Name": "Pyramid - Fairy",
+            "PositionX": -128,
+            "PositionY": -57,
+            "Region": "DW - Main - East",
+            "Rule": "DW - Pyramid - Fairy",
+            "RuleAccess": "Entrance"
+        },
+        {
+            "Map": "DW",
+            "Name": "Lake Hylia (Dark) - Ice Palace",
+            "PositionX": 1217,
+            "PositionY": 1483,
+            "Region": "",
+            "Rule": "DW - Lake Hylia - Ice Palace",
+            "RuleAccess": "Entrance"
+        },
+        {
+            "Map": "DW",
+            "Name": "Swamp Ruins (Dark) - Cave",
+            "PositionX": 400,
+            "PositionY": 1142,
+            "Region": "DW - Main - South",
+            "Rule": "Common - Bomb",
+            "RuleAccess": "Entrance"
+        },
+        {
+            "Map": "DW",
+            "Name": "Swamp Ruins (Dark) - Swamp Palace",
+            "PositionX": -128,
+            "PositionY": 1783,
+            "Region": "DW - Main - South",
+            "Rule": "",
+            "RuleAccess": "Entrance"
+        },
+        {
+            "Map": "DW",
+            "Name": "Haunted Grove (Dark) - Flute Boy",
+            "PositionX": -784,
+            "PositionY": 750,
+            "Region": "DW - Main - South",
+            "Rule": "",
+            "RuleAccess": "Entrance"
+        },
+        {
+            "Map": "DW",
+            "Name": "Village of Outcasts - Shovel Game",
+            "PositionX": -1816,
+            "PositionY": 791,
+            "Region": "DW - Main - South",
+            "Rule": "",
+            "RuleAccess": "Entrance"
+        },
+        {
+            "Map": "DW",
+            "Name": "Village of Outcasts - Swordsmith",
+            "PositionX": -1433,
+            "PositionY": 664,
+            "Region": "DW - Main - West",
+            "Rule": "Common - Titan's Mitt",
+            "RuleAccess": "Entrance"
+        },
+        {
+            "Map": "DW",
+            "Name": "Village of Outcasts - Peg Cave",
+            "PositionX": -752,
+            "PositionY": 431,
+            "Region": "DW - Main - West",
+            "Rule": "DW - Village of Outcasts - Peg Cave",
+            "RuleAccess": "Entrance"
+        },
+        {
+            "Map": "DW",
+            "Name": "Village of Outcasts - Locked Chest",
+            "PositionX": -800,
+            "PositionY": 92,
+            "Region": "DW - Main - West",
+            "Rule": "DW - Village of Outcasts - Locked Chest",
+            "RuleAccess": "Entrance"
+        },
+        {
+            "Map": "DW",
+            "Name": "Village of Outcasts - Bombable Hut",
+            "PositionX": -1600,
+            "PositionY": 342,
+            "Region": "DW - Main - West",
+            "Rule": "Common - Bomb",
+            "RuleAccess": "Entrance"
+        },
+        {
+            "Map": "DW",
+            "Name": "Village of Outcasts - C-Shaped House",
+            "PositionX": -1200,
+            "PositionY": -70,
+            "Region": "DW - Main - West",
+            "Rule": "",
+            "RuleAccess": "Entrance"
+        },
+        {
+            "Map": "DW",
+            "Name": "Village of Outcasts - Chest Game",
+            "PositionX": -1840,
+            "PositionY": -135,
+            "Region": "DW - Main - West",
+            "Rule": "",
+            "RuleAccess": "Entrance"
+        },
+        {
+            "Map": "DW",
+            "Name": "Village of Outcasts - Thieves' Town",
+            "PositionX": -1537,
+            "PositionY": -59,
+            "Region": "DW - Main - West",
+            "Rule": "",
+            "RuleAccess": "Entrance"
+        },
+        {
+            "Map": "DW",
+            "Name": "Skull Woods - Skull Palace",
+            "PositionX": -1888,
+            "PositionY": -1840,
+            "Region": "DW - Main - West",
+            "Rule": "Common - Fire Rod",
+            "RuleAccess": "Entrance"
+        },
+        {
+            "Map": "DW",
+            "Name": "Skull Woods - Skull Cave",
+            "PositionX": -1408,
+            "PositionY": -1328,
+            "Region": "DW - Main - West",
+            "Rule": "",
+            "RuleAccess": "Entrance"
+        },
+        {
+            "Map": "DW",
+            "Name": "North East (Dark) - Catfish",
+            "PositionX": 1615,
+            "PositionY": -1343,
+            "Region": "",
+            "Rule": "DW - North East - Catfish",
+            "RuleAccess": "Entrance"
+        },
+        {
+            "Map": "DW",
+            "Name": "Swamp of Evil - 2 Chest Cave",
+            "PositionX": -1888,
+            "PositionY": 1230,
+            "Region": "DW - Swamp of Evil",
+            "Rule": "",
+            "RuleAccess": "Entrance"
+        },
+        {
+            "Map": "DW",
+            "Name": "Swamp of Evil - Misery Mire",
+            "PositionX": -1744,
+            "PositionY": 1249,
+            "Region": "DW - Swamp of Evil",
+            "Rule": "",
+            "RuleAccess": "Entrance"
+        },
+        {
+            "Map": "LW",
+            "Name": "Death Mountain - Spectacle Rock Item",
+            "PositionX": 32,
+            "PositionY": -1704,
+            "Region": "LW - Death Mountain - West (Bottom)",
+            "Rule": "Common - Magic Mirror",
+            "RuleAccess": "Entrance"
+        }
+    ],
+    "Regions": [
+        {
+            "Color": "#b8f8ff",
+            "Name": "LW - Main",
+            "Rule": ""
+        },
+        {
+            "Color": "#7013aa",
+            "Name": "DW - Main - West",
+            "Rule": "DW - Main - West"
+        },
+        {
+            "Color": "#e657ff",
+            "Name": "DW - Main - South",
+            "Rule": "DW - Main - South"
+        },
+        {
+            "Color": "#b47435",
+            "Name": "DW - Main - East (No Pearl)",
+            "Rule": "DW - Main - East (No Pearl)"
+        },
+        {
+            "Color": "#b4450d",
+            "Name": "DW - Main - East",
+            "Rule": "DW - Main - East"
+        },
+        {
+            "Color": "#15eb11",
+            "Name": "DW - Swamp of Evil",
+            "Rule": "DW - Swamp of Evil"
+        },
+        {
+            "Color": "#ffbd37",
+            "Name": "LW - Desert of Mystery - Ledge",
+            "Rule": "LW - Desert of Mystery - Ledge"
+        },
+        {
+            "Color": "#e9ffe5",
+            "Name": "LW - North East",
+            "Rule": "LW - North East"
+        },
+        {
+            "Color": "#dc89ff",
+            "Name": "LW - Death Mountain - West (Bottom)",
+            "Rule": "LW - Death Mountain - West (Bottom)"
+        },
+        {
+            "Color": "#cd4eff",
+            "Name": "LW - Death Mountain - West (Top)",
+            "Rule": "LW - Death Mountain - West (Top)"
+        },
+        {
+            "Color": "#ff389f",
+            "Name": "LW - Death Mountain - East (Bottom)",
+            "Rule": "LW - Death Mountain - East (Bottom)"
+        },
+        {
+            "Color": "#ff89c6",
+            "Name": "LW - Death Mountain - East (Top)",
+            "Rule": "LW - Death Mountain - East (Top)"
+        },
+        {
+            "Color": "#ff8284",
+            "Name": "DW - Death Mountain - West (Bottom)",
+            "Rule": "DW - Death Mountain - West (Bottom)"
+        },
+        {
+            "Color": "#b6080b",
+            "Name": "DW - Death Mountain - Top",
+            "Rule": "DW - Death Mountain - Top"
+        },
+        {
+            "Color": "#ff3542",
+            "Name": "DW - Death Mountain - East (Bottom)",
+            "Rule": "DW - Death Mountain - East (Bottom)"
+        }
+    ],
+    "Rules": [
+        {
+            "Name": "LW - Lost Woods - Pedestal",
+            "RuleEntries": [
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "And",
+                    "Type": "ProgressSpecial",
+                    "Value": "Pendant1"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "And",
+                    "Type": "ProgressSpecial",
+                    "Value": "Pendant2"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressSpecial",
+                    "Value": "Pendant3"
+                }
+            ]
+        },
+        {
+            "Name": "LW - Lumberjacks - Tree",
+            "RuleEntries": [
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "And",
+                    "Type": "ProgressLocation",
+                    "Value": "AT"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressItem",
+                    "Value": "PegasusBoots"
+                }
+            ]
+        },
+        {
+            "Name": "Common - Power Glove",
+            "RuleEntries": [
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressItem",
+                    "Value": "Glove1"
+                }
+            ]
+        },
+        {
+            "Name": "Common - Inaccessible",
+            "RuleEntries": [
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "Inaccessible",
+                    "Value": ""
+                }
+            ]
+        },
+        {
+            "Name": "Common - Pegasus Boots",
+            "RuleEntries": [
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressItem",
+                    "Value": "PegasusBoots"
+                }
+            ]
+        },
+        {
+            "Name": "DW - Main - East (No Pearl)",
+            "RuleEntries": [
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressLocation",
+                    "Value": "AT"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "SchemaRegion",
+                    "Value": "DW - Main - East"
+                }
+            ]
+        },
+        {
+            "Name": "DW - Main - East",
+            "RuleEntries": [
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 1,
+                    "Operator": "Or",
+                    "Type": "ProgressLocation",
+                    "Value": "AT"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 1,
+                    "Operator": "And",
+                    "Type": "ProgressItem",
+                    "Value": "MagicHammer"
+                },
+                {
+                    "BracketsClose": 1,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressItem",
+                    "Value": "Glove1"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 1,
+                    "Operator": "And",
+                    "Type": "ProgressItem",
+                    "Value": "ZorasFlippers"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 1,
+                    "Operator": "Or",
+                    "Type": "SchemaRegion",
+                    "Value": "DW - Main - West"
+                },
+                {
+                    "BracketsClose": 3,
+                    "BracketsOpen": 0,
+                    "Operator": "And",
+                    "Type": "SchemaRegion",
+                    "Value": "DW - Main - South"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressItem",
+                    "Value": "MoonPearl"
+                }
+            ]
+        },
+        {
+            "Name": "DW - Main - South",
+            "RuleEntries": [
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "And",
+                    "Type": "ProgressItem",
+                    "Value": "MoonPearl"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 2,
+                    "Operator": "And",
+                    "Type": "ProgressItem",
+                    "Value": "MagicHammer"
+                },
+                {
+                    "BracketsClose": 1,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressItem",
+                    "Value": "Glove1"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 1,
+                    "Operator": "And",
+                    "Type": "SchemaRegion",
+                    "Value": "DW - Main - East"
+                },
+                {
+                    "BracketsClose": 1,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressItem",
+                    "Value": "MagicHammer"
+                },
+                {
+                    "BracketsClose": 1,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "SchemaRegion",
+                    "Value": "DW - Main - West"
+                }
+            ]
+        },
+        {
+            "Name": "DW - Main - West",
+            "RuleEntries": [
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "And",
+                    "Type": "ProgressItem",
+                    "Value": "MoonPearl"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 2,
+                    "Operator": "And",
+                    "Type": "ProgressItem",
+                    "Value": "MagicHammer"
+                },
+                {
+                    "BracketsClose": 1,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressItem",
+                    "Value": "Glove1"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressItem",
+                    "Value": "Glove2"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 1,
+                    "Operator": "And",
+                    "Type": "SchemaRegion",
+                    "Value": "DW - Main - East"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "And",
+                    "Type": "ProgressItem",
+                    "Value": "Hookshot"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 1,
+                    "Operator": "Or",
+                    "Type": "ProgressItem",
+                    "Value": "MagicHammer"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressItem",
+                    "Value": "Glove1"
+                },
+                {
+                    "BracketsClose": 3,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressItem",
+                    "Value": "ZorasFlippers"
+                }
+            ]
+        },
+        {
+            "Name": "LW - Sanctuary - Graveyard Cave",
+            "RuleEntries": [
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "And",
+                    "Type": "SchemaRegion",
+                    "Value": "DW - Main - West"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "And",
+                    "Type": "ProgressItem",
+                    "Value": "MagicMirror"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 1,
+                    "Operator": "Or",
+                    "Type": "ProgressItem",
+                    "Value": "PegasusBoots"
+                },
+                {
+                    "BracketsClose": 1,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressItem",
+                    "Value": "Glove2"
+                }
+            ]
+        },
+        {
+            "Name": "LW - Sanctuary - King's Grave",
+            "RuleEntries": [
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "And",
+                    "Type": "ProgressItem",
+                    "Value": "PegasusBoots"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 1,
+                    "Operator": "Or",
+                    "Type": "ProgressItem",
+                    "Value": "Glove2"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 1,
+                    "Operator": "And",
+                    "Type": "SchemaRegion",
+                    "Value": "DW - Main - West"
+                },
+                {
+                    "BracketsClose": 2,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressItem",
+                    "Value": "MagicMirror"
+                }
+            ]
+        },
+        {
+            "Name": "Common - Bomb",
+            "RuleEntries": [
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressItem",
+                    "Value": "Bomb"
+                }
+            ]
+        },
+        {
+            "Name": "LW - Kakariko - Bat Cave",
+            "RuleEntries": [
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "And",
+                    "Type": "ProgressItem",
+                    "Value": "MagicPowder"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 1,
+                    "Operator": "Or",
+                    "Type": "ProgressItem",
+                    "Value": "MagicHammer"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 1,
+                    "Operator": "And",
+                    "Type": "SchemaRegion",
+                    "Value": "DW - Main - West"
+                },
+                {
+                    "BracketsClose": 2,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressItem",
+                    "Value": "MagicMirror"
+                }
+            ]
+        },
+        {
+            "Name": "LW - Haunted Grove - Cave",
+            "RuleEntries": [
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "And",
+                    "Type": "SchemaRegion",
+                    "Value": "DW - Main - South"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressItem",
+                    "Value": "MagicMirror"
+                }
+            ]
+        },
+        {
+            "Name": "Common - Zora's Flippers",
+            "RuleEntries": [
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressItem",
+                    "Value": "ZorasFlippers"
+                }
+            ]
+        },
+        {
+            "Name": "LW - Lake Hylia - Island",
+            "RuleEntries": [
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 1,
+                    "Operator": "Or",
+                    "Type": "SchemaRegion",
+                    "Value": "DW - Main - East"
+                },
+                {
+                    "BracketsClose": 1,
+                    "BracketsOpen": 0,
+                    "Operator": "And",
+                    "Type": "SchemaRegion",
+                    "Value": "DW - Main - South"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "And",
+                    "Type": "ProgressItem",
+                    "Value": "ZorasFlippers"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressItem",
+                    "Value": "MagicMirror"
+                }
+            ]
+        },
+        {
+            "Name": "DW - Swamp of Evil",
+            "RuleEntries": [
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "And",
+                    "Type": "ProgressItem",
+                    "Value": "Flute"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressItem",
+                    "Value": "Glove2"
+                }
+            ]
+        },
+        {
+            "Name": "LW - Desert of Mystery - Tablet",
+            "RuleEntries": [
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "And",
+                    "Type": "SchemaRegion",
+                    "Value": "DW - Main - South"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "And",
+                    "Type": "ProgressItem",
+                    "Value": "MagicMirror"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "And",
+                    "Type": "SchemaRule",
+                    "Value": "Common - Tablet"
+                }
+            ]
+        },
+        {
+            "Name": "LW - Desert of Mystery - Checkerboard Cave",
+            "RuleEntries": [
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "And",
+                    "Type": "SchemaRegion",
+                    "Value": "DW - Swamp of Evil"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressItem",
+                    "Value": "MagicMirror"
+                }
+            ]
+        },
+        {
+            "Name": "Common - Tablet",
+            "RuleEntries": [
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "And",
+                    "Type": "ProgressItem",
+                    "Value": "Sword2"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressItem",
+                    "Value": "BookOfMudora"
+                }
+            ]
+        },
+        {
+            "Name": "LW - Desert of Mystery - Desert Palace - Front",
+            "RuleEntries": [
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressItem",
+                    "Value": "BookOfMudora"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 1,
+                    "Operator": "And",
+                    "Type": "SchemaRegion",
+                    "Value": "DW - Swamp of Evil"
+                },
+                {
+                    "BracketsClose": 1,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressItem",
+                    "Value": "MagicMirror"
+                }
+            ]
+        },
+        {
+            "Name": "LW - Desert of Mystery - Ledge",
+            "RuleEntries": [
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 1,
+                    "Operator": "And",
+                    "Type": "SchemaRegion",
+                    "Value": "DW - Swamp of Evil"
+                },
+                {
+                    "BracketsClose": 1,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressItem",
+                    "Value": "MagicMirror"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressItem",
+                    "Value": "BookOfMudora"
+                }
+            ]
+        },
+        {
+            "Name": "LW - North East",
+            "RuleEntries": [
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressItem",
+                    "Value": "Glove1"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressItem",
+                    "Value": "ZorasFlippers"
+                }
+            ]
+        },
+        {
+            "Name": "LW - Death Mountain - West (Bottom)",
+            "RuleEntries": [
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressItem",
+                    "Value": "Flute"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "SchemaRegion",
+                    "Value": "LW - Death Mountain - West (Top)"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 1,
+                    "Operator": "And",
+                    "Type": "SchemaRegion",
+                    "Value": "LW - Death Mountain - East (Bottom)"
+                },
+                {
+                    "BracketsClose": 1,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressItem",
+                    "Value": "Hookshot"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 1,
+                    "Operator": "And",
+                    "Type": "ProgressItem",
+                    "Value": "Glove1"
+                },
+                {
+                    "BracketsClose": 1,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressItem",
+                    "Value": "Lantern"
+                }
+            ]
+        },
+        {
+            "Name": "LW - Death Mountain - West (Top)",
+            "RuleEntries": [
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 1,
+                    "Operator": "And",
+                    "Type": "SchemaRegion",
+                    "Value": "LW - Death Mountain - West (Bottom)"
+                },
+                {
+                    "BracketsClose": 1,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressItem",
+                    "Value": "MagicMirror"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 1,
+                    "Operator": "And",
+                    "Type": "SchemaRegion",
+                    "Value": "LW - Death Mountain - East (Top)"
+                },
+                {
+                    "BracketsClose": 1,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressItem",
+                    "Value": "MagicHammer"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 1,
+                    "Operator": "And",
+                    "Type": "SchemaRegion",
+                    "Value": "DW - Death Mountain - Top"
+                },
+                {
+                    "BracketsClose": 1,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressItem",
+                    "Value": "MagicMirror"
+                }
+            ]
+        },
+        {
+            "Name": "LW - Death Mountain - East (Bottom)",
+            "RuleEntries": [
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "SchemaRegion",
+                    "Value": "LW - Death Mountain - East (Top)"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 1,
+                    "Operator": "And",
+                    "Type": "SchemaRegion",
+                    "Value": "LW - Death Mountain - West (Bottom)"
+                },
+                {
+                    "BracketsClose": 1,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressItem",
+                    "Value": "Hookshot"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "SchemaItem",
+                    "Value": "Death Mountain - Spiral Cave (Entrance)"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "SchemaItem",
+                    "Value": "Death Mountain - Fairy Ascension Cave - Exit"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 1,
+                    "Operator": "And",
+                    "Type": "SchemaRegion",
+                    "Value": "DW - Death Mountain - East (Bottom)"
+                },
+                {
+                    "BracketsClose": 1,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressItem",
+                    "Value": "MagicMirror"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "SchemaItem",
+                    "Value": "Death Mountain - Fairy Ascension Cave (Entrance)"
+                }
+            ]
+        },
+        {
+            "Name": "LW - Death Mountain - East (Top)",
+            "RuleEntries": [
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "And",
+                    "Type": "SchemaRegion",
+                    "Value": "LW - Death Mountain - West (Top)"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressItem",
+                    "Value": "MagicHammer"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 1,
+                    "Operator": "And",
+                    "Type": "SchemaRegion",
+                    "Value": "DW - Death Mountain - Top"
+                },
+                {
+                    "BracketsClose": 1,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressItem",
+                    "Value": "MagicMirror"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "And",
+                    "Type": "SchemaRegion",
+                    "Value": "LW - Death Mountain - East (Bottom)"
+                }
+            ]
+        },
+        {
+            "Name": "LW - Death Mountain - East (Ledges)",
+            "RuleEntries": [
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "SchemaRegion",
+                    "Value": "LW - Death Mountain - East (Top)"
+                }
+            ]
+        },
+        {
+            "Name": "LW - Death Mountain - Island",
+            "RuleEntries": [
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "And",
+                    "Type": "SchemaItem",
+                    "Value": "Death Mountain (Dark) - Hookshot Cave (Exit)"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressItem",
+                    "Value": "MagicMirror"
+                }
+            ]
+        },
+        {
+            "Name": "DW - Death Mountain - West (Bottom)",
+            "RuleEntries": [
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "SchemaRegion",
+                    "Value": "DW - Death Mountain - Top"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "SchemaRegion",
+                    "Value": "LW - Death Mountain - West (Bottom)"
+                }
+            ]
+        },
+        {
+            "Name": "DW - Death Mountain - Top",
+            "RuleEntries": [
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 1,
+                    "Operator": "And",
+                    "Type": "SchemaRegion",
+                    "Value": "LW - Death Mountain - East (Top)"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "And",
+                    "Type": "ProgressItem",
+                    "Value": "MagicHammer"
+                },
+                {
+                    "BracketsClose": 1,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressItem",
+                    "Value": "Glove2"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "SchemaRegion",
+                    "Value": "DW - Death Mountain - East (Bottom)"
+                }
+            ]
+        },
+        {
+            "Name": "DW - Death Mountain - Ganon's Tower",
+            "RuleEntries": [
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressSpecial",
+                    "Value": "Crystal7"
+                }
+            ]
+        },
+        {
+            "Name": "DW - Death Mountain - East (Bottom)",
+            "RuleEntries": [
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "SchemaRegion",
+                    "Value": "DW - Death Mountain - Top"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 1,
+                    "Operator": "And",
+                    "Type": "SchemaRegion",
+                    "Value": "LW - Death Mountain - East (Bottom)"
+                },
+                {
+                    "BracketsClose": 1,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressItem",
+                    "Value": "Glove2"
+                }
+            ]
+        },
+        {
+            "Name": "LW - Death Mountain - Mimic Cave",
+            "RuleEntries": [
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "And",
+                    "Type": "SchemaRegion",
+                    "Value": "DW - Death Mountain - Turtle Rock (Ledge)"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressItem",
+                    "Value": "MagicMirror"
+                }
+            ]
+        },
+        {
+            "Name": "DW - Death Mountain - Turtle Rock",
+            "RuleEntries": [
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "And",
+                    "Type": "SchemaRegion",
+                    "Value": "LW - Death Mountain - East (Top)"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "And",
+                    "Type": "ProgressItem",
+                    "Value": "MagicHammer"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressItem",
+                    "Value": "Glove2"
+                }
+            ]
+        },
+        {
+            "Name": "DW - Pyramid - Hole",
+            "RuleEntries": [
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressLocation",
+                    "Value": "GT"
+                }
+            ]
+        },
+        {
+            "Name": "DW - Pyramid - Fairy",
+            "RuleEntries": [
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressItem",
+                    "Value": "SuperBomb"
+                }
+            ]
+        },
+        {
+            "Name": "DW - Lake Hylia - Ice Palace",
+            "RuleEntries": [
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "And",
+                    "Type": "ProgressItem",
+                    "Value": "ZorasFlippers"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressItem",
+                    "Value": "Glove2"
+                }
+            ]
+        },
+        {
+            "Name": "Common - Titan's Mitt",
+            "RuleEntries": [
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressItem",
+                    "Value": "Glove2"
+                }
+            ]
+        },
+        {
+            "Name": "DW - Village of Outcasts - Peg Cave",
+            "RuleEntries": [
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "And",
+                    "Type": "ProgressItem",
+                    "Value": "Glove2"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressItem",
+                    "Value": "MagicHammer"
+                }
+            ]
+        },
+        {
+            "Name": "DW - Village of Outcasts - Locked Chest",
+            "RuleEntries": [
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "SchemaItem",
+                    "Value": "Village of Outcasts - Swordsmith"
+                }
+            ]
+        },
+        {
+            "Name": "Common - Fire Rod",
+            "RuleEntries": [
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressItem",
+                    "Value": "FireRod"
+                }
+            ]
+        },
+        {
+            "Name": "DW - North East - Catfish",
+            "RuleEntries": [
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "And",
+                    "Type": "ProgressItem",
+                    "Value": "Glove1"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 1,
+                    "Operator": "Or",
+                    "Type": "SchemaRegion",
+                    "Value": "DW - Main - East"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 1,
+                    "Operator": "And",
+                    "Type": "SchemaRegion",
+                    "Value": "DW - Main - West"
+                },
+                {
+                    "BracketsClose": 2,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressItem",
+                    "Value": "ZorasFlippers"
+                }
+            ]
+        },
+        {
+            "Name": "Common - Magic Mirror",
+            "RuleEntries": [
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressItem",
+                    "Value": "MagicMirror"
+                }
+            ]
+        },
+        {
+            "Name": "Common - Bottle",
+            "RuleEntries": [
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressItem",
+                    "Value": "Bottle"
+                }
+            ]
+        },
+        {
+            "Name": "Common - Shovel",
+            "RuleEntries": [
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressItem",
+                    "Value": "Shovel"
+                }
+            ]
+        },
+        {
+            "Name": "Common - Lantern",
+            "RuleEntries": [
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressItem",
+                    "Value": "Lantern"
+                }
+            ]
+        }
+    ],
+    "Version": 1
+}

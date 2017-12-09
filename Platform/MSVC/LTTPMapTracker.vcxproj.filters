@@ -1,0 +1,765 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files\QDarkStyle">
+      <UniqueIdentifier>{520152b9-9911-4e0f-b207-18e628e22093}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\LTTPMapTracker">
+      <UniqueIdentifier>{bc4b07f4-25d9-4b4f-a07a-d2e1d389d8c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{81e8cf04-0d7a-4b11-9a9b-0b628e6427c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Data">
+      <UniqueIdentifier>{75e564b5-9ed5-4bcf-a620-5ba4acc03833}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Utility">
+      <UniqueIdentifier>{b193e929-25ba-4c38-bfb7-f283e34785b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\UI">
+      <UniqueIdentifier>{9a9b3f0a-ae3f-4559-95ef-d8df78e1ac96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Data\Database">
+      <UniqueIdentifier>{dddad438-8355-4bbf-9ef6-19b03ac18e54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Data\Schema">
+      <UniqueIdentifier>{5632f4ba-be36-4ffa-aa6a-eaad530a3975}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Data\Instance">
+      <UniqueIdentifier>{a3a57fbd-5bf4-4f31-95b8-2bdb5ea90307}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Utility\ModelData">
+      <UniqueIdentifier>{0cfa3ef5-9c60-4956-9b9f-645b5dbbc142}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Utility\WidgetState">
+      <UniqueIdentifier>{df7a37d3-1f82-452b-9adb-a1c779e27f0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Utility\Widget">
+      <UniqueIdentifier>{c3714c38-caf6-4c93-b581-d5dc7b7e5ba8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\UI\ConfigurationWidget">
+      <UniqueIdentifier>{fb66a18d-d6bc-44d3-9d0d-1db46c295f73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\UI\EntityWidget">
+      <UniqueIdentifier>{80414c5b-aada-4802-a8ce-2e807377d837}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\UI\MapWidget">
+      <UniqueIdentifier>{5aa075b8-d8b9-4c2e-9b1a-513d42737c98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\UI\ProgressItemWidget">
+      <UniqueIdentifier>{df501db8-49b5-4ab7-a308-3ba68960be0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\UI\ProgressLocationWidget">
+      <UniqueIdentifier>{4bfd1529-d222-454e-ac06-1455ceee4209}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\UI\SchemaItemWidget">
+      <UniqueIdentifier>{f1f656ec-3bdb-4736-8e81-e077b6c7eeab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\UI\SchemaRegionWidget">
+      <UniqueIdentifier>{cdec73f6-e706-4cc5-a4f8-2c77aca49ea5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\UI\SchemaRuleWidget">
+      <UniqueIdentifier>{920fe8dd-3f72-486e-b77f-8abe3fc3356f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\UI\SettingsWidget">
+      <UniqueIdentifier>{b6e816d8-6a62-4a1f-9471-16cc6dcfd751}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\UI\MapWidget\Items">
+      <UniqueIdentifier>{553eadda-b552-47cf-b2e4-663612a9e10c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\UI\MapWidget\Items\Common">
+      <UniqueIdentifier>{eee8b90b-b951-459e-82f5-3326c376880f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\Resource\QDarkStyle.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Resource\LTTPMapTracker.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Source\MainWindow.h">
+      <Filter>Source</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Source\MainWindow.ui">
+      <Filter>Source</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Source\Data\Instance\Instance.h">
+      <Filter>Source\Data\Instance</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Source\Data\Schema\Schema.h">
+      <Filter>Source\Data\Schema</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Source\Data\Settings.h">
+      <Filter>Source\Data</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Source\Utility\ModelData\ModelDataDelegate.h">
+      <Filter>Source\Utility\ModelData</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Source\Utility\ModelData\ModelDataEditor.h">
+      <Filter>Source\Utility\ModelData</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Source\Utility\Widget\ColorButtonWidget.h">
+      <Filter>Source\Utility\Widget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Source\Utility\Widget\FileBrowseWidget.h">
+      <Filter>Source\Utility\Widget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Source\Utility\DataContainer.h">
+      <Filter>Source\Utility</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Source\Utility\DataWrapper.h">
+      <Filter>Source\Utility</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Source\UI\ConfigurationWidget\ConfigurationModel.h">
+      <Filter>Source\UI\ConfigurationWidget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Source\UI\EntityWidget\EntityWidgetItem.h">
+      <Filter>Source\UI\EntityWidget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Source\UI\EntityWidget\EntityWidget.h">
+      <Filter>Source\UI\EntityWidget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Source\UI\MapWidget\Items\MapSceneItemSchemaItem.h">
+      <Filter>Source\UI\MapWidget\Items</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Source\UI\MapWidget\MapView.h">
+      <Filter>Source\UI\MapWidget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Source\UI\MapWidget\MapWidget.h">
+      <Filter>Source\UI\MapWidget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Source\UI\MapWidget\MapScene.h">
+      <Filter>Source\UI\MapWidget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Source\UI\ProgressItemWidget\ProgressItemWidget.h">
+      <Filter>Source\UI\ProgressItemWidget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Source\UI\ProgressLocationWidget\ProgressLocationWidget.h">
+      <Filter>Source\UI\ProgressLocationWidget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Source\UI\SchemaItemWidget\SchemaItemPropertiesModel.h">
+      <Filter>Source\UI\SchemaItemWidget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Source\UI\SchemaItemWidget\SchemaItemWidget.h">
+      <Filter>Source\UI\SchemaItemWidget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Source\UI\SchemaItemWidget\SchemaItemListModel.h">
+      <Filter>Source\UI\SchemaItemWidget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Source\UI\SchemaRegionWidget\SchemaRegionWidget.h">
+      <Filter>Source\UI\SchemaRegionWidget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Source\UI\SchemaRegionWidget\SchemaRegionListModel.h">
+      <Filter>Source\UI\SchemaRegionWidget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Source\UI\SchemaRegionWidget\SchemaRegionPropertiesModel.h">
+      <Filter>Source\UI\SchemaRegionWidget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Source\UI\SchemaRuleWidget\SchemaRulePropertiesModel.h">
+      <Filter>Source\UI\SchemaRuleWidget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Source\UI\SchemaRuleWidget\SchemaRuleWidget.h">
+      <Filter>Source\UI\SchemaRuleWidget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Source\UI\SchemaRuleWidget\SchemaRuleListModel.h">
+      <Filter>Source\UI\SchemaRuleWidget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Source\UI\SettingsWidget\SettingsWidget.ui">
+      <Filter>Source\UI\SettingsWidget</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\Resource\Resource\AppIcon.png">
+      <Filter>Resource Files\LTTPMapTracker</Filter>
+    </Image>
+    <Image Include="..\..\Resource\Resource\ButtonDW.png">
+      <Filter>Resource Files\LTTPMapTracker</Filter>
+    </Image>
+    <Image Include="..\..\Resource\Resource\ButtonLW.png">
+      <Filter>Resource Files\LTTPMapTracker</Filter>
+    </Image>
+    <Image Include="..\..\Resource\Resource\FileClose.png">
+      <Filter>Resource Files\LTTPMapTracker</Filter>
+    </Image>
+    <Image Include="..\..\Resource\Resource\FileOpen.png">
+      <Filter>Resource Files\LTTPMapTracker</Filter>
+    </Image>
+    <Image Include="..\..\Resource\Resource\FileSave.png">
+      <Filter>Resource Files\LTTPMapTracker</Filter>
+    </Image>
+    <Image Include="..\..\Resource\Resource\FileSaveAs.png">
+      <Filter>Resource Files\LTTPMapTracker</Filter>
+    </Image>
+    <Image Include="..\..\Resource\Resource\MapDW.png">
+      <Filter>Resource Files\LTTPMapTracker</Filter>
+    </Image>
+    <Image Include="..\..\Resource\Resource\MapLW.png">
+      <Filter>Resource Files\LTTPMapTracker</Filter>
+    </Image>
+    <Image Include="..\..\Resource\Resource\StatusPlay.png">
+      <Filter>Resource Files\LTTPMapTracker</Filter>
+    </Image>
+    <Image Include="..\..\Resource\Resource\StatusStop.png">
+      <Filter>Resource Files\LTTPMapTracker</Filter>
+    </Image>
+    <Image Include="..\..\Resource\Resource\QDarkStyle\branch_closed.png">
+      <Filter>Resource Files\QDarkStyle</Filter>
+    </Image>
+    <Image Include="..\..\Resource\Resource\QDarkStyle\branch_closed-on.png">
+      <Filter>Resource Files\QDarkStyle</Filter>
+    </Image>
+    <Image Include="..\..\Resource\Resource\QDarkStyle\branch_open.png">
+      <Filter>Resource Files\QDarkStyle</Filter>
+    </Image>
+    <Image Include="..\..\Resource\Resource\QDarkStyle\branch_open-on.png">
+      <Filter>Resource Files\QDarkStyle</Filter>
+    </Image>
+    <Image Include="..\..\Resource\Resource\QDarkStyle\checkbox_checked.png">
+      <Filter>Resource Files\QDarkStyle</Filter>
+    </Image>
+    <Image Include="..\..\Resource\Resource\QDarkStyle\checkbox_checked_disabled.png">
+      <Filter>Resource Files\QDarkStyle</Filter>
+    </Image>
+    <Image Include="..\..\Resource\Resource\QDarkStyle\checkbox_checked_focus.png">
+      <Filter>Resource Files\QDarkStyle</Filter>
+    </Image>
+    <Image Include="..\..\Resource\Resource\QDarkStyle\checkbox_indeterminate.png">
+      <Filter>Resource Files\QDarkStyle</Filter>
+    </Image>
+    <Image Include="..\..\Resource\Resource\QDarkStyle\checkbox_indeterminate_focus.png">
+      <Filter>Resource Files\QDarkStyle</Filter>
+    </Image>
+    <Image Include="..\..\Resource\Resource\QDarkStyle\checkbox_unchecked.png">
+      <Filter>Resource Files\QDarkStyle</Filter>
+    </Image>
+    <Image Include="..\..\Resource\Resource\QDarkStyle\checkbox_unchecked_disabled.png">
+      <Filter>Resource Files\QDarkStyle</Filter>
+    </Image>
+    <Image Include="..\..\Resource\Resource\QDarkStyle\checkbox_unchecked_focus.png">
+      <Filter>Resource Files\QDarkStyle</Filter>
+    </Image>
+    <Image Include="..\..\Resource\Resource\QDarkStyle\close.png">
+      <Filter>Resource Files\QDarkStyle</Filter>
+    </Image>
+    <Image Include="..\..\Resource\Resource\QDarkStyle\close-hover.png">
+      <Filter>Resource Files\QDarkStyle</Filter>
+    </Image>
+    <Image Include="..\..\Resource\Resource\QDarkStyle\close-pressed.png">
+      <Filter>Resource Files\QDarkStyle</Filter>
+    </Image>
+    <Image Include="..\..\Resource\Resource\QDarkStyle\down_arrow.png">
+      <Filter>Resource Files\QDarkStyle</Filter>
+    </Image>
+    <Image Include="..\..\Resource\Resource\QDarkStyle\down_arrow_disabled.png">
+      <Filter>Resource Files\QDarkStyle</Filter>
+    </Image>
+    <Image Include="..\..\Resource\Resource\QDarkStyle\Hmovetoolbar.png">
+      <Filter>Resource Files\QDarkStyle</Filter>
+    </Image>
+    <Image Include="..\..\Resource\Resource\QDarkStyle\Hsepartoolbar.png">
+      <Filter>Resource Files\QDarkStyle</Filter>
+    </Image>
+    <Image Include="..\..\Resource\Resource\QDarkStyle\left_arrow.png">
+      <Filter>Resource Files\QDarkStyle</Filter>
+    </Image>
+    <Image Include="..\..\Resource\Resource\QDarkStyle\left_arrow_disabled.png">
+      <Filter>Resource Files\QDarkStyle</Filter>
+    </Image>
+    <Image Include="..\..\Resource\Resource\QDarkStyle\radio_checked.png">
+      <Filter>Resource Files\QDarkStyle</Filter>
+    </Image>
+    <Image Include="..\..\Resource\Resource\QDarkStyle\radio_checked_disabled.png">
+      <Filter>Resource Files\QDarkStyle</Filter>
+    </Image>
+    <Image Include="..\..\Resource\Resource\QDarkStyle\radio_checked_focus.png">
+      <Filter>Resource Files\QDarkStyle</Filter>
+    </Image>
+    <Image Include="..\..\Resource\Resource\QDarkStyle\radio_unchecked.png">
+      <Filter>Resource Files\QDarkStyle</Filter>
+    </Image>
+    <Image Include="..\..\Resource\Resource\QDarkStyle\radio_unchecked_disabled.png">
+      <Filter>Resource Files\QDarkStyle</Filter>
+    </Image>
+    <Image Include="..\..\Resource\Resource\QDarkStyle\radio_unchecked_focus.png">
+      <Filter>Resource Files\QDarkStyle</Filter>
+    </Image>
+    <Image Include="..\..\Resource\Resource\QDarkStyle\right_arrow.png">
+      <Filter>Resource Files\QDarkStyle</Filter>
+    </Image>
+    <Image Include="..\..\Resource\Resource\QDarkStyle\right_arrow_disabled.png">
+      <Filter>Resource Files\QDarkStyle</Filter>
+    </Image>
+    <Image Include="..\..\Resource\Resource\QDarkStyle\sizegrip.png">
+      <Filter>Resource Files\QDarkStyle</Filter>
+    </Image>
+    <Image Include="..\..\Resource\Resource\QDarkStyle\stylesheet-branch-end.png">
+      <Filter>Resource Files\QDarkStyle</Filter>
+    </Image>
+    <Image Include="..\..\Resource\Resource\QDarkStyle\stylesheet-branch-more.png">
+      <Filter>Resource Files\QDarkStyle</Filter>
+    </Image>
+    <Image Include="..\..\Resource\Resource\QDarkStyle\stylesheet-vline.png">
+      <Filter>Resource Files\QDarkStyle</Filter>
+    </Image>
+    <Image Include="..\..\Resource\Resource\QDarkStyle\transparent.png">
+      <Filter>Resource Files\QDarkStyle</Filter>
+    </Image>
+    <Image Include="..\..\Resource\Resource\QDarkStyle\undock.png">
+      <Filter>Resource Files\QDarkStyle</Filter>
+    </Image>
+    <Image Include="..\..\Resource\Resource\QDarkStyle\up_arrow.png">
+      <Filter>Resource Files\QDarkStyle</Filter>
+    </Image>
+    <Image Include="..\..\Resource\Resource\QDarkStyle\up_arrow_disabled.png">
+      <Filter>Resource Files\QDarkStyle</Filter>
+    </Image>
+    <Image Include="..\..\Resource\Resource\QDarkStyle\Vmovetoolbar.png">
+      <Filter>Resource Files\QDarkStyle</Filter>
+    </Image>
+    <Image Include="..\..\Resource\Resource\QDarkStyle\Vsepartoolbar.png">
+      <Filter>Resource Files\QDarkStyle</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GeneratedFiles\qrc_LTTPMapTracker.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_QDarkStyle.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MainWindow.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MainWindow.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MainWindow.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Data\Database\ItemDatabase.cpp">
+      <Filter>Source\Data\Database</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Data\Database\LocationDatabase.cpp">
+      <Filter>Source\Data\Database</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Data\Database\EntityDatabase.cpp">
+      <Filter>Source\Data\Database</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_Instance.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Instance.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Data\Instance\InstanceData.cpp">
+      <Filter>Source\Data\Instance</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Data\Instance\InstanceRuleParser.cpp">
+      <Filter>Source\Data\Instance</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Data\Instance\Instance.cpp">
+      <Filter>Source\Data\Instance</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Data\Schema\SchemaData.cpp">
+      <Filter>Source\Data\Schema</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Data\Schema\Schema.cpp">
+      <Filter>Source\Data\Schema</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_Schema.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Schema.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Data\DataModel.cpp">
+      <Filter>Source\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Data\Settings.cpp">
+      <Filter>Source\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_Settings.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Settings.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Data\Configuration.cpp">
+      <Filter>Source\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Utility\ModelData\ModelDataDelegate.cpp">
+      <Filter>Source\Utility\ModelData</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ModelDataDelegate.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ModelDataDelegate.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Utility\ModelData\ModelDataEditor.cpp">
+      <Filter>Source\Utility\ModelData</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ModelDataEditor.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ModelDataEditor.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Utility\ModelData\ModelData.cpp">
+      <Filter>Source\Utility\ModelData</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ColorButtonWidget.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ColorButtonWidget.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Utility\Widget\FileBrowseWidget.cpp">
+      <Filter>Source\Utility\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FileBrowseWidget.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FileBrowseWidget.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Utility\Widget\ColorButtonWidget.cpp">
+      <Filter>Source\Utility\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Utility\WidgetState\WidgetStateManager.cpp">
+      <Filter>Source\Utility\WidgetState</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Utility\WidgetState\WidgetState.cpp">
+      <Filter>Source\Utility\WidgetState</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Utility\WindowManager.cpp">
+      <Filter>Source\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_DataContainer.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_DataContainer.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_DataWrapper.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_DataWrapper.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Utility\File.cpp">
+      <Filter>Source\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Utility\JSON.cpp">
+      <Filter>Source\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Utility\Result.cpp">
+      <Filter>Source\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ConfigurationModel.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ConfigurationModel.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UI\ConfigurationWidget\ConfigurationWidget.cpp">
+      <Filter>Source\UI\ConfigurationWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UI\ConfigurationWidget\ConfigurationModel.cpp">
+      <Filter>Source\UI\ConfigurationWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UI\EntityWidget\EntityWidgetItem.cpp">
+      <Filter>Source\UI\EntityWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_EntityWidgetItem.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_EntityWidgetItem.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UI\EntityWidget\EntityWidget.cpp">
+      <Filter>Source\UI\EntityWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_EntityWidget.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_EntityWidget.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UI\MapWidget\Items\Common\MapSceneItemPixmap.cpp">
+      <Filter>Source\UI\MapWidget\Items\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UI\MapWidget\Items\MapSceneItemInstanceItem.cpp">
+      <Filter>Source\UI\MapWidget\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UI\MapWidget\Items\MapSceneItemSchemaItem.cpp">
+      <Filter>Source\UI\MapWidget\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MapSceneItemSchemaItem.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MapSceneItemSchemaItem.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UI\MapWidget\Items\MapSceneItemBackground.cpp">
+      <Filter>Source\UI\MapWidget\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UI\MapWidget\Items\MapSceneItemConnectionItem.cpp">
+      <Filter>Source\UI\MapWidget\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MapView.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MapView.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UI\MapWidget\MapWidget.cpp">
+      <Filter>Source\UI\MapWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MapWidget.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MapWidget.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UI\MapWidget\MapEntityWidget.cpp">
+      <Filter>Source\UI\MapWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UI\MapWidget\MapScene.cpp">
+      <Filter>Source\UI\MapWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MapScene.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MapScene.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UI\MapWidget\MapView.cpp">
+      <Filter>Source\UI\MapWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ProgressItemWidget.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ProgressItemWidget.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UI\ProgressItemWidget\ProgressItemWidget.cpp">
+      <Filter>Source\UI\ProgressItemWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UI\ProgressLocationWidget\ProgressLocationWidget.cpp">
+      <Filter>Source\UI\ProgressLocationWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ProgressLocationWidget.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ProgressLocationWidget.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UI\SchemaItemWidget\SchemaItemPropertiesModel.cpp">
+      <Filter>Source\UI\SchemaItemWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SchemaItemPropertiesModel.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SchemaItemPropertiesModel.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UI\SchemaItemWidget\SchemaItemWidget.cpp">
+      <Filter>Source\UI\SchemaItemWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SchemaItemWidget.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SchemaItemWidget.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UI\SchemaItemWidget\SchemaItemListModel.cpp">
+      <Filter>Source\UI\SchemaItemWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SchemaItemListModel.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SchemaItemListModel.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UI\SchemaRegionWidget\SchemaRegionWidget.cpp">
+      <Filter>Source\UI\SchemaRegionWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SchemaRegionWidget.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SchemaRegionWidget.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UI\SchemaRegionWidget\SchemaRegionListModel.cpp">
+      <Filter>Source\UI\SchemaRegionWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SchemaRegionListModel.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SchemaRegionListModel.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UI\SchemaRegionWidget\SchemaRegionPropertiesModel.cpp">
+      <Filter>Source\UI\SchemaRegionWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SchemaRegionPropertiesModel.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SchemaRegionPropertiesModel.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UI\SchemaRuleWidget\SchemaRulePropertiesModel.cpp">
+      <Filter>Source\UI\SchemaRuleWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SchemaRulePropertiesModel.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SchemaRulePropertiesModel.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UI\SchemaRuleWidget\SchemaRuleWidget.cpp">
+      <Filter>Source\UI\SchemaRuleWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SchemaRuleWidget.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SchemaRuleWidget.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UI\SchemaRuleWidget\SchemaRuleListModel.cpp">
+      <Filter>Source\UI\SchemaRuleWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SchemaRuleListModel.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SchemaRuleListModel.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UI\SettingsWidget\SettingsWidget.cpp">
+      <Filter>Source\UI\SettingsWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PCH.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_MainWindow.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\EditorInterface.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\EditorTypeInfo.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Data\Database\EntityDatabase.h">
+      <Filter>Source\Data\Database</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Data\Database\ItemDatabase.h">
+      <Filter>Source\Data\Database</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Data\Database\LocationDatabase.h">
+      <Filter>Source\Data\Database</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Data\Instance\InstanceData.h">
+      <Filter>Source\Data\Instance</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Data\Instance\InstanceRuleParser.h">
+      <Filter>Source\Data\Instance</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Data\Instance\InstanceTypeInfo.h">
+      <Filter>Source\Data\Instance</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Data\Schema\SchemaData.h">
+      <Filter>Source\Data\Schema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Data\Schema\SchemaTypeInfo.h">
+      <Filter>Source\Data\Schema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Data\DataModel.h">
+      <Filter>Source\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Data\Configuration.h">
+      <Filter>Source\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Utility\ModelData\ModelData.h">
+      <Filter>Source\Utility\ModelData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Utility\WidgetState\WidgetStateManager.h">
+      <Filter>Source\Utility\WidgetState</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Utility\WidgetState\WidgetState.h">
+      <Filter>Source\Utility\WidgetState</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Utility\Result.h">
+      <Filter>Source\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Utility\Utility.h">
+      <Filter>Source\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Utility\WindowManager.h">
+      <Filter>Source\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Utility\EnumReflection.h">
+      <Filter>Source\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Utility\File.h">
+      <Filter>Source\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Utility\JSON.h">
+      <Filter>Source\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UI\ConfigurationWidget\ConfigurationWidget.h">
+      <Filter>Source\UI\ConfigurationWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UI\MapWidget\Items\Common\MapSceneItemPixmap.h">
+      <Filter>Source\UI\MapWidget\Items\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UI\MapWidget\Items\MapSceneItemInstanceItem.h">
+      <Filter>Source\UI\MapWidget\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UI\MapWidget\Items\MapSceneItemBackground.h">
+      <Filter>Source\UI\MapWidget\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UI\MapWidget\Items\MapSceneItemConnectionItem.h">
+      <Filter>Source\UI\MapWidget\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UI\MapWidget\MapEntityWidget.h">
+      <Filter>Source\UI\MapWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UI\SettingsWidget\SettingsWidget.h">
+      <Filter>Source\UI\SettingsWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_SettingsWidget.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\PCH.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="LTTPMapTracker.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,16 @@
+{
+	"Version": 1,
+	"Data": [
+		{
+			"Name": "Locations",
+			"Entities": [
+				[ "LW1", "LW2", "LW3" ],
+				[ "DW1", "DW2", "DW3" ],
+				[ "DW4", "DW5", "DW6", "DW7" ],
+				[ "HC", "AT", "GT", "Ganon" ],
+				[ "BombShop", "BumperCave", "MimicCave", "SpikeCave" ],
+				[ "Sahasrahla", "OldMansCave", "Swordsmiths", "WitchHut" ]
+			]
+		}
+	]
+}

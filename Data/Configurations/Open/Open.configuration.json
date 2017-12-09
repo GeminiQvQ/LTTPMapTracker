@@ -1,0 +1,6 @@
+{
+    "InstanceTemplate": "Data/Configurations/Open/Open.instance.json",
+    "Schema": "Data/Configurations/Open/Open.schema.json",
+    "SettingsOverrides": "",
+    "Version": 1
+}

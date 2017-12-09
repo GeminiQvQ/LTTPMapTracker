@@ -1,0 +1,43 @@
+<RCC>
+  <qresource prefix="qss_icons/rc/">
+    <file alias="up_arrow_disabled.png">QDarkStyle/up_arrow_disabled.png</file>
+    <file alias="Hmovetoolbar.png">QDarkStyle/Hmovetoolbar.png</file>
+    <file alias="stylesheet-branch-end.png">QDarkStyle/stylesheet-branch-end.png</file>
+    <file alias="branch_closed-on.png">QDarkStyle/branch_closed-on.png</file>
+    <file alias="stylesheet-vline.png">QDarkStyle/stylesheet-vline.png</file>
+    <file alias="branch_closed.png">QDarkStyle/branch_closed.png</file>
+    <file alias="branch_open-on.png">QDarkStyle/branch_open-on.png</file>
+    <file alias="transparent.png">QDarkStyle/transparent.png</file>
+    <file alias="right_arrow_disabled.png">QDarkStyle/right_arrow_disabled.png</file>
+    <file alias="sizegrip.png">QDarkStyle/sizegrip.png</file>
+    <file alias="close.png">QDarkStyle/close.png</file>
+    <file alias="close-hover.png">QDarkStyle/close-hover.png</file>
+    <file alias="close-pressed.png">QDarkStyle/close-pressed.png</file>
+    <file alias="down_arrow.png">QDarkStyle/down_arrow.png</file>
+    <file alias="Vmovetoolbar.png">QDarkStyle/Vmovetoolbar.png</file>
+    <file alias="left_arrow.png">QDarkStyle/left_arrow.png</file>
+    <file alias="stylesheet-branch-more.png">QDarkStyle/stylesheet-branch-more.png</file>
+    <file alias="up_arrow.png">QDarkStyle/up_arrow.png</file>
+    <file alias="right_arrow.png">QDarkStyle/right_arrow.png</file>
+    <file alias="left_arrow_disabled.png">QDarkStyle/left_arrow_disabled.png</file>
+    <file alias="Hsepartoolbar.png">QDarkStyle/Hsepartoolbar.png</file>
+    <file alias="branch_open.png">QDarkStyle/branch_open.png</file>
+    <file alias="Vsepartoolbar.png">QDarkStyle/Vsepartoolbar.png</file>
+    <file alias="down_arrow_disabled.png">QDarkStyle/down_arrow_disabled.png</file>
+    <file alias="undock.png">QDarkStyle/undock.png</file>
+    <file alias="checkbox_checked_disabled.png">QDarkStyle/checkbox_checked_disabled.png</file>
+    <file alias="checkbox_checked_focus.png">QDarkStyle/checkbox_checked_focus.png</file>
+    <file alias="checkbox_checked.png">QDarkStyle/checkbox_checked.png</file>
+    <file alias="checkbox_indeterminate.png">QDarkStyle/checkbox_indeterminate.png</file>
+    <file alias="checkbox_indeterminate_focus.png">QDarkStyle/checkbox_indeterminate_focus.png</file>
+    <file alias="checkbox_unchecked_disabled.png">QDarkStyle/checkbox_unchecked_disabled.png</file>
+    <file alias="checkbox_unchecked_focus.png">QDarkStyle/checkbox_unchecked_focus.png</file>
+    <file alias="checkbox_unchecked.png">QDarkStyle/checkbox_unchecked.png</file>
+    <file alias="radio_checked_disabled.png">QDarkStyle/radio_checked_disabled.png</file>
+    <file alias="radio_checked_focus.png">QDarkStyle/radio_checked_focus.png</file>
+    <file alias="radio_checked.png">QDarkStyle/radio_checked.png</file>
+    <file alias="radio_unchecked_disabled.png">QDarkStyle/radio_unchecked_disabled.png</file>
+    <file alias="radio_unchecked_focus.png">QDarkStyle/radio_unchecked_focus.png</file>
+    <file alias="radio_unchecked.png">QDarkStyle/radio_unchecked.png</file>
+  </qresource>
+</RCC>

@@ -1,0 +1,851 @@
+{
+    "Connections": [
+    ],
+    "Items": {
+        "Death Mountain (Dark) - Ascension Cave (Entrance)": {
+            "Cleared": false,
+            "Items": [
+            ],
+            "Location": "",
+            "LocationEntrance": ""
+        },
+        "Death Mountain (Dark) - Bumper Cave (Top)": {
+            "Cleared": false,
+            "Items": [
+            ],
+            "Location": "BumperCave",
+            "LocationEntrance": ""
+        },
+        "Death Mountain (Dark) - Ganon's Tower": {
+            "Cleared": false,
+            "Items": [
+            ],
+            "Location": "GT",
+            "LocationEntrance": ""
+        },
+        "Death Mountain (Dark) - Hookshot Cave (Entrance)": {
+            "Cleared": false,
+            "Items": [
+            ],
+            "Location": "",
+            "LocationEntrance": ""
+        },
+        "Death Mountain (Dark) - Spike Cave": {
+            "Cleared": false,
+            "Items": [
+            ],
+            "Location": "SpikeCave",
+            "LocationEntrance": ""
+        },
+        "Death Mountain (Dark) - Turtle Rock (Main)": {
+            "Cleared": false,
+            "Items": [
+            ],
+            "Location": "DW7",
+            "LocationEntrance": "Front"
+        },
+        "Death Mountain - 7 Chest Cave (Middle)": {
+            "Cleared": false,
+            "Items": [
+            ],
+            "Location": "",
+            "LocationEntrance": ""
+        },
+        "Death Mountain - Island": {
+            "Cleared": false,
+            "Items": [
+            ],
+            "Location": "",
+            "LocationEntrance": ""
+        },
+        "Death Mountain - Mimic Cave": {
+            "Cleared": false,
+            "Items": [
+            ],
+            "Location": "MimicCave",
+            "LocationEntrance": ""
+        },
+        "Death Mountain - Old Man's Cave (Entrance)": {
+            "Cleared": false,
+            "Items": [
+            ],
+            "Location": "",
+            "LocationEntrance": ""
+        },
+        "Death Mountain - Spectacle Rock Cave (Bottom)": {
+            "Cleared": false,
+            "Items": [
+            ],
+            "Location": "",
+            "LocationEntrance": ""
+        },
+        "Death Mountain - Spectacle Rock Item": {
+            "Cleared": false,
+            "Items": [
+            ],
+            "Location": "",
+            "LocationEntrance": ""
+        },
+        "Death Mountain - Spiral Cave (Entrance)": {
+            "Cleared": false,
+            "Items": [
+            ],
+            "Location": "",
+            "LocationEntrance": ""
+        },
+        "Death Mountain - Tablet": {
+            "Cleared": false,
+            "Items": [
+            ],
+            "Location": "",
+            "LocationEntrance": ""
+        },
+        "Death Mountain - Tower of Hera": {
+            "Cleared": false,
+            "Items": [
+            ],
+            "Location": "LW3",
+            "LocationEntrance": ""
+        },
+        "Desert of Mystery - Aginah's Cave": {
+            "Cleared": false,
+            "Items": [
+            ],
+            "Location": "",
+            "LocationEntrance": ""
+        },
+        "Desert of Mystery - Checkerboard Cave": {
+            "Cleared": false,
+            "Items": [
+            ],
+            "Location": "",
+            "LocationEntrance": ""
+        },
+        "Desert of Mystery - Desert Palace - Back": {
+            "Cleared": false,
+            "Items": [
+            ],
+            "Location": "LW2",
+            "LocationEntrance": "Back"
+        },
+        "Desert of Mystery - Desert Palace - Front": {
+            "Cleared": false,
+            "Items": [
+            ],
+            "Location": "LW2",
+            "LocationEntrance": "Front"
+        },
+        "Desert of Mystery - Ledge Item": {
+            "Cleared": false,
+            "Items": [
+            ],
+            "Location": "",
+            "LocationEntrance": ""
+        },
+        "Desert of Mystery - Tablet": {
+            "Cleared": false,
+            "Items": [
+            ],
+            "Location": "",
+            "LocationEntrance": ""
+        },
+        "Eastern Ruins - Eastern Palace": {
+            "Cleared": false,
+            "Items": [
+            ],
+            "Location": "LW1",
+            "LocationEntrance": ""
+        },
+        "Eastern Ruins - Sahasrahla's Hut": {
+            "Cleared": false,
+            "Items": [
+            ],
+            "Location": "",
+            "LocationEntrance": ""
+        },
+        "Haunted Grove (Dark) - Flute Boy": {
+            "Cleared": false,
+            "Items": [
+            ],
+            "Location": "",
+            "LocationEntrance": ""
+        },
+        "Haunted Grove - Cave": {
+            "Cleared": false,
+            "Items": [
+            ],
+            "Location": "",
+            "LocationEntrance": ""
+        },
+        "Haunted Grove - Digging Spot": {
+            "Cleared": false,
+            "Items": [
+            ],
+            "Location": "",
+            "LocationEntrance": ""
+        },
+        "Hyrule Castle - Agahnim's Tower": {
+            "Cleared": false,
+            "Items": [
+            ],
+            "Location": "AT",
+            "LocationEntrance": ""
+        },
+        "Hyrule Castle - Front": {
+            "Cleared": false,
+            "Items": [
+            ],
+            "Location": "HC",
+            "LocationEntrance": "Front"
+        },
+        "Hyrule Castle - Secret Entrance": {
+            "Cleared": false,
+            "Items": [
+            ],
+            "Location": "",
+            "LocationEntrance": ""
+        },
+        "Kakariko - Bat Cave": {
+            "Cleared": false,
+            "Items": [
+            ],
+            "Location": "",
+            "LocationEntrance": ""
+        },
+        "Kakariko - Bottle Vendor": {
+            "Cleared": false,
+            "Items": [
+            ],
+            "Location": "",
+            "LocationEntrance": ""
+        },
+        "Kakariko - Chicken House": {
+            "Cleared": false,
+            "Items": [
+            ],
+            "Location": "",
+            "LocationEntrance": ""
+        },
+        "Kakariko - Library": {
+            "Cleared": false,
+            "Items": [
+            ],
+            "Location": "",
+            "LocationEntrance": ""
+        },
+        "Kakariko - Maze Race (Prize)": {
+            "Cleared": false,
+            "Items": [
+            ],
+            "Location": "",
+            "LocationEntrance": ""
+        },
+        "Kakariko - Sick Kid's House": {
+            "Cleared": false,
+            "Items": [
+            ],
+            "Location": "",
+            "LocationEntrance": ""
+        },
+        "Kakariko - Tavern (Back)": {
+            "Cleared": false,
+            "Items": [
+            ],
+            "Location": "",
+            "LocationEntrance": ""
+        },
+        "Kakariko - Thief's Hut": {
+            "Cleared": false,
+            "Items": [
+            ],
+            "Location": "",
+            "LocationEntrance": ""
+        },
+        "Kakariko - Well": {
+            "Cleared": false,
+            "Items": [
+            ],
+            "Location": "",
+            "LocationEntrance": ""
+        },
+        "Lake Hylia (Dark) - Ice Palace": {
+            "Cleared": false,
+            "Items": [
+            ],
+            "Location": "DW5",
+            "LocationEntrance": ""
+        },
+        "Lake Hylia - Ice Cave": {
+            "Cleared": false,
+            "Items": [
+            ],
+            "Location": "",
+            "LocationEntrance": ""
+        },
+        "Lake Hylia - Island": {
+            "Cleared": false,
+            "Items": [
+            ],
+            "Location": "",
+            "LocationEntrance": ""
+        },
+        "Lake Hylia - Mini Moldorm Cave": {
+            "Cleared": false,
+            "Items": [
+            ],
+            "Location": "",
+            "LocationEntrance": ""
+        },
+        "Lost Woods - Mushroom": {
+            "Cleared": false,
+            "Items": [
+            ],
+            "Location": "",
+            "LocationEntrance": ""
+        },
+        "Lost Woods - Pedestal": {
+            "Cleared": false,
+            "Items": [
+            ],
+            "Location": "",
+            "LocationEntrance": ""
+        },
+        "Lost Woods - Thief's Hideout": {
+            "Cleared": false,
+            "Items": [
+            ],
+            "Location": "",
+            "LocationEntrance": ""
+        },
+        "Lumberjacks - Tree": {
+            "Cleared": false,
+            "Items": [
+            ],
+            "Location": "",
+            "LocationEntrance": ""
+        },
+        "Misc (Dark) - Bomb Shop": {
+            "Cleared": false,
+            "Items": [
+            ],
+            "Location": "BombShop",
+            "LocationEntrance": ""
+        },
+        "Misc - Hobo": {
+            "Cleared": false,
+            "Items": [
+            ],
+            "Location": "",
+            "LocationEntrance": ""
+        },
+        "Misc - Link's House": {
+            "Cleared": false,
+            "Items": [
+            ],
+            "Location": "",
+            "LocationEntrance": ""
+        },
+        "North East (Dark) - Catfish": {
+            "Cleared": false,
+            "Items": [
+            ],
+            "Location": "",
+            "LocationEntrance": ""
+        },
+        "North East - Magic Shop": {
+            "Cleared": false,
+            "Items": [
+            ],
+            "Location": "WitchHut",
+            "LocationEntrance": ""
+        },
+        "North East - Waterfall Fairy": {
+            "Cleared": false,
+            "Items": [
+            ],
+            "Location": "",
+            "LocationEntrance": ""
+        },
+        "Palace of Darkness - Dungeon": {
+            "Cleared": false,
+            "Items": [
+            ],
+            "Location": "DW1",
+            "LocationEntrance": ""
+        },
+        "Pyramid - Fairy": {
+            "Cleared": false,
+            "Items": [
+            ],
+            "Location": "",
+            "LocationEntrance": ""
+        },
+        "Pyramid - Hole": {
+            "Cleared": false,
+            "Items": [
+            ],
+            "Location": "",
+            "LocationEntrance": ""
+        },
+        "Pyramid - Item": {
+            "Cleared": false,
+            "Items": [
+            ],
+            "Location": "",
+            "LocationEntrance": ""
+        },
+        "Sanctuary - Bonk Cave": {
+            "Cleared": false,
+            "Items": [
+            ],
+            "Location": "",
+            "LocationEntrance": ""
+        },
+        "Sanctuary - Grave": {
+            "Cleared": false,
+            "Items": [
+            ],
+            "Location": "",
+            "LocationEntrance": ""
+        },
+        "Sanctuary - Graveyard Cave": {
+            "Cleared": false,
+            "Items": [
+            ],
+            "Location": "",
+            "LocationEntrance": ""
+        },
+        "Sanctuary - King's Grave": {
+            "Cleared": false,
+            "Items": [
+            ],
+            "Location": "",
+            "LocationEntrance": ""
+        },
+        "Skull Woods - Skull Cave": {
+            "Cleared": false,
+            "Items": [
+            ],
+            "Location": "",
+            "LocationEntrance": ""
+        },
+        "Skull Woods - Skull Palace": {
+            "Cleared": false,
+            "Items": [
+            ],
+            "Location": "DW3",
+            "LocationEntrance": ""
+        },
+        "Swamp Ruins (Dark) - Cave": {
+            "Cleared": false,
+            "Items": [
+            ],
+            "Location": "",
+            "LocationEntrance": ""
+        },
+        "Swamp Ruins (Dark) - Swamp Palace": {
+            "Cleared": false,
+            "Items": [
+            ],
+            "Location": "DW2",
+            "LocationEntrance": ""
+        },
+        "Swamp Ruins - Dam": {
+            "Cleared": false,
+            "Items": [
+            ],
+            "Location": "",
+            "LocationEntrance": ""
+        },
+        "Swamp Ruins - Dam (Item)": {
+            "Cleared": false,
+            "Items": [
+            ],
+            "Location": "",
+            "LocationEntrance": ""
+        },
+        "Swamp of Evil - 2 Chest Cave": {
+            "Cleared": false,
+            "Items": [
+            ],
+            "Location": "",
+            "LocationEntrance": ""
+        },
+        "Swamp of Evil - Misery Mire": {
+            "Cleared": false,
+            "Items": [
+            ],
+            "Location": "DW6",
+            "LocationEntrance": ""
+        },
+        "Village of Outcasts - Bombable Hut": {
+            "Cleared": false,
+            "Items": [
+            ],
+            "Location": "",
+            "LocationEntrance": ""
+        },
+        "Village of Outcasts - C-Shaped House": {
+            "Cleared": false,
+            "Items": [
+            ],
+            "Location": "",
+            "LocationEntrance": ""
+        },
+        "Village of Outcasts - Chest Game": {
+            "Cleared": false,
+            "Items": [
+            ],
+            "Location": "",
+            "LocationEntrance": ""
+        },
+        "Village of Outcasts - Locked Chest": {
+            "Cleared": false,
+            "Items": [
+            ],
+            "Location": "",
+            "LocationEntrance": ""
+        },
+        "Village of Outcasts - Peg Cave": {
+            "Cleared": false,
+            "Items": [
+            ],
+            "Location": "",
+            "LocationEntrance": ""
+        },
+        "Village of Outcasts - Shovel Game": {
+            "Cleared": false,
+            "Items": [
+            ],
+            "Location": "",
+            "LocationEntrance": ""
+        },
+        "Village of Outcasts - Swordsmith": {
+            "Cleared": false,
+            "Items": [
+            ],
+            "Location": "",
+            "LocationEntrance": ""
+        },
+        "Village of Outcasts - Thieves' Town": {
+            "Cleared": false,
+            "Items": [
+            ],
+            "Location": "DW4",
+            "LocationEntrance": ""
+        },
+        "Zora's Waterfall - Item": {
+            "Cleared": false,
+            "Items": [
+            ],
+            "Location": "",
+            "LocationEntrance": ""
+        },
+        "Zora's Waterfall - King Zora": {
+            "Cleared": false,
+            "Items": [
+            ],
+            "Location": "",
+            "LocationEntrance": ""
+        }
+    },
+    "ProgressItems": [
+    ],
+    "ProgressLocations": [
+        {
+            "Cleared": false,
+            "HasBigKey": false,
+            "HasCompass": false,
+            "HasMap": false,
+            "IsCrystal": false,
+            "IsCrystalRed": false,
+            "IsPendant": false,
+            "IsPendantGreen": false,
+            "Location": "AT",
+            "NumItems": 0,
+            "NumKeysCurrent": 0,
+            "NumKeysTotal": 0
+        },
+        {
+            "Cleared": false,
+            "HasBigKey": false,
+            "HasCompass": false,
+            "HasMap": false,
+            "IsCrystal": false,
+            "IsCrystalRed": false,
+            "IsPendant": false,
+            "IsPendantGreen": false,
+            "Location": "BombShop",
+            "NumItems": 0,
+            "NumKeysCurrent": 0,
+            "NumKeysTotal": 0
+        },
+        {
+            "Cleared": false,
+            "HasBigKey": false,
+            "HasCompass": false,
+            "HasMap": false,
+            "IsCrystal": false,
+            "IsCrystalRed": false,
+            "IsPendant": false,
+            "IsPendantGreen": false,
+            "Location": "BumperCave",
+            "NumItems": 0,
+            "NumKeysCurrent": 0,
+            "NumKeysTotal": 0
+        },
+        {
+            "Cleared": false,
+            "HasBigKey": false,
+            "HasCompass": false,
+            "HasMap": false,
+            "IsCrystal": false,
+            "IsCrystalRed": false,
+            "IsPendant": false,
+            "IsPendantGreen": false,
+            "Location": "DW1",
+            "NumItems": 0,
+            "NumKeysCurrent": 0,
+            "NumKeysTotal": 0
+        },
+        {
+            "Cleared": false,
+            "HasBigKey": false,
+            "HasCompass": false,
+            "HasMap": false,
+            "IsCrystal": false,
+            "IsCrystalRed": false,
+            "IsPendant": false,
+            "IsPendantGreen": false,
+            "Location": "DW2",
+            "NumItems": 0,
+            "NumKeysCurrent": 0,
+            "NumKeysTotal": 0
+        },
+        {
+            "Cleared": false,
+            "HasBigKey": false,
+            "HasCompass": false,
+            "HasMap": false,
+            "IsCrystal": false,
+            "IsCrystalRed": false,
+            "IsPendant": false,
+            "IsPendantGreen": false,
+            "Location": "DW3",
+            "NumItems": 0,
+            "NumKeysCurrent": 0,
+            "NumKeysTotal": 0
+        },
+        {
+            "Cleared": false,
+            "HasBigKey": false,
+            "HasCompass": false,
+            "HasMap": false,
+            "IsCrystal": false,
+            "IsCrystalRed": false,
+            "IsPendant": false,
+            "IsPendantGreen": false,
+            "Location": "DW4",
+            "NumItems": 0,
+            "NumKeysCurrent": 0,
+            "NumKeysTotal": 0
+        },
+        {
+            "Cleared": false,
+            "HasBigKey": false,
+            "HasCompass": false,
+            "HasMap": false,
+            "IsCrystal": false,
+            "IsCrystalRed": false,
+            "IsPendant": false,
+            "IsPendantGreen": false,
+            "Location": "DW5",
+            "NumItems": 0,
+            "NumKeysCurrent": 0,
+            "NumKeysTotal": 0
+        },
+        {
+            "Cleared": false,
+            "HasBigKey": false,
+            "HasCompass": false,
+            "HasMap": false,
+            "IsCrystal": false,
+            "IsCrystalRed": false,
+            "IsPendant": false,
+            "IsPendantGreen": false,
+            "Location": "DW6",
+            "NumItems": 0,
+            "NumKeysCurrent": 0,
+            "NumKeysTotal": 0
+        },
+        {
+            "Cleared": false,
+            "HasBigKey": false,
+            "HasCompass": false,
+            "HasMap": false,
+            "IsCrystal": false,
+            "IsCrystalRed": false,
+            "IsPendant": false,
+            "IsPendantGreen": false,
+            "Location": "DW7",
+            "NumItems": 0,
+            "NumKeysCurrent": 0,
+            "NumKeysTotal": 0
+        },
+        {
+            "Cleared": false,
+            "HasBigKey": false,
+            "HasCompass": false,
+            "HasMap": false,
+            "IsCrystal": false,
+            "IsCrystalRed": false,
+            "IsPendant": false,
+            "IsPendantGreen": false,
+            "Location": "GT",
+            "NumItems": 0,
+            "NumKeysCurrent": 0,
+            "NumKeysTotal": 0
+        },
+        {
+            "Cleared": false,
+            "HasBigKey": false,
+            "HasCompass": false,
+            "HasMap": false,
+            "IsCrystal": false,
+            "IsCrystalRed": false,
+            "IsPendant": false,
+            "IsPendantGreen": false,
+            "Location": "HC",
+            "NumItems": 0,
+            "NumKeysCurrent": 0,
+            "NumKeysTotal": 0
+        },
+        {
+            "Cleared": false,
+            "HasBigKey": false,
+            "HasCompass": false,
+            "HasMap": false,
+            "IsCrystal": false,
+            "IsCrystalRed": false,
+            "IsPendant": false,
+            "IsPendantGreen": false,
+            "Location": "LW1",
+            "NumItems": 0,
+            "NumKeysCurrent": 0,
+            "NumKeysTotal": 0
+        },
+        {
+            "Cleared": false,
+            "HasBigKey": false,
+            "HasCompass": false,
+            "HasMap": false,
+            "IsCrystal": false,
+            "IsCrystalRed": false,
+            "IsPendant": false,
+            "IsPendantGreen": false,
+            "Location": "LW2",
+            "NumItems": 0,
+            "NumKeysCurrent": 0,
+            "NumKeysTotal": 0
+        },
+        {
+            "Cleared": false,
+            "HasBigKey": false,
+            "HasCompass": false,
+            "HasMap": false,
+            "IsCrystal": false,
+            "IsCrystalRed": false,
+            "IsPendant": false,
+            "IsPendantGreen": false,
+            "Location": "LW3",
+            "NumItems": 0,
+            "NumKeysCurrent": 0,
+            "NumKeysTotal": 0
+        },
+        {
+            "Cleared": false,
+            "HasBigKey": false,
+            "HasCompass": false,
+            "HasMap": false,
+            "IsCrystal": false,
+            "IsCrystalRed": false,
+            "IsPendant": false,
+            "IsPendantGreen": false,
+            "Location": "MimicCave",
+            "NumItems": 0,
+            "NumKeysCurrent": 0,
+            "NumKeysTotal": 0
+        },
+        {
+            "Cleared": false,
+            "HasBigKey": false,
+            "HasCompass": false,
+            "HasMap": false,
+            "IsCrystal": false,
+            "IsCrystalRed": false,
+            "IsPendant": false,
+            "IsPendantGreen": false,
+            "Location": "OldMansCave",
+            "NumItems": 0,
+            "NumKeysCurrent": 0,
+            "NumKeysTotal": 0
+        },
+        {
+            "Cleared": false,
+            "HasBigKey": false,
+            "HasCompass": false,
+            "HasMap": false,
+            "IsCrystal": false,
+            "IsCrystalRed": false,
+            "IsPendant": false,
+            "IsPendantGreen": false,
+            "Location": "Sahasrahla",
+            "NumItems": 0,
+            "NumKeysCurrent": 0,
+            "NumKeysTotal": 0
+        },
+        {
+            "Cleared": false,
+            "HasBigKey": false,
+            "HasCompass": false,
+            "HasMap": false,
+            "IsCrystal": false,
+            "IsCrystalRed": false,
+            "IsPendant": false,
+            "IsPendantGreen": false,
+            "Location": "SpikeCave",
+            "NumItems": 0,
+            "NumKeysCurrent": 0,
+            "NumKeysTotal": 0
+        },
+        {
+            "Cleared": false,
+            "HasBigKey": false,
+            "HasCompass": false,
+            "HasMap": false,
+            "IsCrystal": false,
+            "IsCrystalRed": false,
+            "IsPendant": false,
+            "IsPendantGreen": false,
+            "Location": "Swordsmiths",
+            "NumItems": 0,
+            "NumKeysCurrent": 0,
+            "NumKeysTotal": 0
+        },
+        {
+            "Cleared": false,
+            "HasBigKey": false,
+            "HasCompass": false,
+            "HasMap": false,
+            "IsCrystal": false,
+            "IsCrystalRed": false,
+            "IsPendant": false,
+            "IsPendantGreen": false,
+            "Location": "WitchHut",
+            "NumItems": 0,
+            "NumKeysCurrent": 0,
+            "NumKeysTotal": 0
+        }
+    ],
+    "Version": 1
+}

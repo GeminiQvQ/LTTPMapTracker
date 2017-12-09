@@ -1,0 +1,148 @@
+{
+	"Version": 1,
+
+	"Locations": [
+		{
+			"Entity": "HC",
+			"Treasure": 8,
+			"TreasureKeys": 1,
+			"TreasureEtc": 1,
+			"Requirements": [ "Lantern" ],
+			"Entrances": [ "Front", "Left", "Right" ],
+			"Connections": [
+				[ "Front", "Left", [ ] ],
+				[ "Front", "Right", [ ] ],
+				[ "Left", "Right", [ ] ]
+			]
+		},
+		{
+			"Entity": "LW1",
+			"Treasure": 6,
+			"TreasureKeys": 0,
+			"TreasureEtc": 3,
+			"Requirements": [ "Lantern", "Bow" ]
+		},
+		{
+			"Entity": "LW2",
+			"Treasure": 6,
+			"TreasureKeys": 1,
+			"TreasureEtc": 3,
+			"Requirements": [ [ "Lantern", "FireRod" ], "PegasusBoots?" ],
+			"Entrances": [ "Front", "Left", "Right", "Back" ],
+			"Connections": [
+				[ "Front", "Left", [ ] ],
+				[ "Front", "Right", [ ] ],
+				[ "Left", "Right", [ ] ]
+			]
+		},
+		{
+			"Entity": "LW3",
+			"Treasure": 6,
+			"TreasureKeys": 1,
+			"TreasureEtc": 3,
+			"Requirements": [ [ "Lantern?", "FireRod?" ] ]
+		},
+		{
+			"Entity": "AT",
+			"Treasure": 2,
+			"TreasureKeys": 2,
+			"TreasureEtc": 0,
+			"Requirements": [ "Lantern", [ "Sword1", "BugNet" ] ]
+		},		
+		{
+			"Entity": "DW1",
+			"Treasure": 14,
+			"TreasureKeys": 6,
+			"TreasureEtc": 3,
+			"Requirements": [ "Lantern", "Bow", "MagicHammer" ]
+		},
+		{
+			"Entity": "DW2",
+			"Treasure": 10,
+			"TreasureKeys": 1,
+			"TreasureEtc": 3,
+			"Requirements": [ "ZorasFlippers", "MagicHammer", "Hookshot" ]
+		},
+		{
+			"Entity": "DW3",
+			"Treasure": 8,
+			"TreasureKeys": 3,
+			"TreasureEtc": 3,
+			"Requirements": [ "FireRod" ]
+		},
+		{
+			"Entity": "DW4",
+			"Treasure": 8,
+			"TreasureKeys": 1,
+			"TreasureEtc": 3,
+			"Requirements": [ "MagicHammer" ]
+		},
+		{
+			"Entity": "DW5",
+			"Treasure": 8,
+			"TreasureKeys": 2,
+			"TreasureEtc": 3,
+			"Requirements": [ [ "MedallionBombos", "FireRod" ], "MagicHammer" ]
+		},
+		{
+			"Entity": "DW6",
+			"Treasure": 8,
+			"TreasureKeys": 3,
+			"TreasureEtc": 3,
+			"Requirements": [ "Lantern", "CaneOfSomaria", [ "PegasusBoots?", "Hookshot?" ] ]
+		},
+		{
+			"Entity": "DW7",
+			"Treasure": 12,
+			"TreasureKeys": 4,
+			"TreasureEtc": 3,
+			"Requirements": [ "CaneOfSomaria", "Lantern", "FireRod", "IceRod" ],
+			"Entrances": [ "Front", "Left", "Right", "Back" ],
+			"Connections": [
+				[ "Front", "Left", [ "CaneOfSomaria", "FireRod?" ] ],
+				[ "Left", "Right", [ ] ],
+				[ "Left", "Back", [ "CaneOfSomaria", "Lantern" ] ],
+				[ "Right", "Back", [ "CaneOfSomaria", "Lantern" ] ]
+			]
+		},
+		{
+			"Entity": "GT",
+			"Treasure": 27,
+			"TreasureKeys": 4,
+			"TreasureEtc": 3,
+			"Requirements": [ "Bow", "Hookshot", "CaneOfSomaria?", "FireRod?" ]
+		},
+		
+		{
+			"Entity": "BombShop",
+			"Requirements": [ "ProgressSpecial:Crystal5", "ProgressSpecial:Crystal6" ]
+		},
+		{
+			"Entity": "BumperCave",
+			"Requirements": [ "MagicCape" ]
+		},
+		{
+			"Entity": "MimicCave",
+			"Requirements": [ "MagicHammer" ]
+		},
+		{
+			"Entity": "SpikeCave",
+			"Requirements": [ "MagicHammer", "Glove1", [ "MagicCape", "CaneOfByrna" ] ]
+		},
+		{
+			"Entity": "Sahasrahla",
+			"Requirements": [ "ProgressSpecial:Pendant1" ]
+		},
+		{
+			"Entity": "OldMansCave",
+			"IsStartPos": true
+		},
+		{
+			"Entity": "Swordsmiths"
+		},
+		{
+			"Entity": "WitchHut",
+			"Requirements": [ "Mushroom" ]
+		}
+	]
+}

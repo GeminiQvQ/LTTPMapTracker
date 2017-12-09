@@ -1,0 +1,28 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+
+	<qresource prefix="App">
+		<file alias="Icon">LTTPMapTracker/AppIcon.png</file>
+		<file alias="Style">QDarkStyle/QDarkStyle.qss</file>
+	</qresource>
+	
+	<qresource prefix="File">
+		<file alias="Open">LTTPMapTracker/FileOpen.png</file>
+		<file alias="Save">LTTPMapTracker/FileSave.png</file>
+		<file alias="SaveAs">LTTPMapTracker/FileSaveAs.png</file>
+		<file alias="Close">LTTPMapTracker/FileClose.png</file>
+	</qresource>
+	
+	<qresource prefix="Status">
+		<file alias="Play">LTTPMapTracker/StatusPlay.png</file>
+		<file alias="Stop">LTTPMapTracker/StatusStop.png</file>
+	</qresource>
+
+  <qresource prefix="UI">
+    <file alias="ButtonDW">LTTPMapTracker/ButtonDW.png</file>
+    <file alias="ButtonLW">LTTPMapTracker/ButtonLW.png</file>
+    <file alias="MapDW">LTTPMapTracker/MapDW.png</file>
+    <file alias="MapLW">LTTPMapTracker/MapLW.png</file>
+  </qresource>  
+  
+</RCC>

@@ -1,0 +1,15 @@
+{
+	"Version": 1,
+
+	"Items": [
+		"Bow", "Boomerang1", "Boomerang2", "Hookshot", "Bomb", "SuperBomb", "MagicPowder",
+		"FireRod", "IceRod", "MedallionBombos", "MedallionEther", "MedallionQuake",
+		"Lantern", "MagicHammer", "Flute", "BugNet", "BookOfMudora",
+		"Bottle", "CaneOfSomaria", "CaneOfByrna", "MagicCape", "MagicMirror",
+		"PegasusBoots", "Glove1", "Glove2", "ZorasFlippers", "MoonPearl",
+		"SilverArrow", "Mushroom", "Shovel",
+		"Sword1", "Sword2", "Sword3", "Sword4",
+		"Shield1", "Shield2", "Shield3",
+		"Armor1", "Armor2", "Armor3"
+	]
+}
