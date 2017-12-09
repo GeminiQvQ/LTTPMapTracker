@@ -12,9 +12,14 @@ It comes equipped with the following schemas by default:
 
 ## Platforms
 
-Currently the only supported platform is Win32.
+Currently the only supported platform is Win32. 
 
 If you would like to assist with porting this to other platforms, please let me know!
+
+## Screenshots
+
+[Schema Mode](https://i.imgur.com/lKRhiqU.png)
+[Instance Mode](https://i.imgur.com/wkGjR7Q.png)
 
 ## Downloads
 
