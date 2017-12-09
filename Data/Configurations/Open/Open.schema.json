@@ -41,8 +41,8 @@
             "Name": "Death Mountain (Dark) - Bumper Cave (Top)",
             "PositionX": -576,
             "PositionY": -1422,
-            "Region": "",
-            "Rule": "Common - Inaccessible",
+            "Region": "DW - Main - West",
+            "Rule": "",
             "RuleAccess": "Entrance"
         },
         {
@@ -177,7 +177,7 @@
             "PositionX": -1408,
             "PositionY": 649,
             "Region": "LW - Main",
-            "Rule": "",
+            "Rule": "Common - Pegasus Boots",
             "RuleAccess": "Entrance"
         },
         {
@@ -564,7 +564,7 @@
             "PositionX": -128,
             "PositionY": 1783,
             "Region": "DW - Main - South",
-            "Rule": "",
+            "Rule": "Common - Magic Mirror",
             "RuleAccess": "Entrance"
         },
         {
