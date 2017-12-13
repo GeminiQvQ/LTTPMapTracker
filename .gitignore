@@ -7,3 +7,4 @@ Intermediate
 *.vcxproj.user
 
 Bin/*
+Data/Instances/*

@@ -366,7 +366,7 @@
             "PositionX": -871,
             "PositionY": 664,
             "Region": "LW - Main",
-            "Rule": "",
+            "Rule": "Common - Shovel",
             "RuleAccess": "Entrance"
         },
         {
@@ -2664,6 +2664,18 @@
                     "Operator": "Or",
                     "Type": "ProgressItem",
                     "Value": "MagicMirror"
+                }
+            ]
+        },
+        {
+            "Name": "Common - Shovel",
+            "RuleEntries": [
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressItem",
+                    "Value": "Shovel"
                 }
             ]
         }

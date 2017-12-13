@@ -1,6 +1,6 @@
 {
     "InstanceTemplate": "",
-    "Schema": "Data/Configurations/Entrance/Entrance.schema.json",
+    "Schema": "Data/Configurations/Entrance/EntranceFull.schema.json",
     "SettingsOverrides": "",
     "Version": 1
 }

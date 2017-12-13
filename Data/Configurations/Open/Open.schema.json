@@ -1066,20 +1066,6 @@
                     "Operator": "And",
                     "Type": "ProgressItem",
                     "Value": "MagicMirror"
-                },
-                {
-                    "BracketsClose": 0,
-                    "BracketsOpen": 1,
-                    "Operator": "Or",
-                    "Type": "ProgressItem",
-                    "Value": "PegasusBoots"
-                },
-                {
-                    "BracketsClose": 1,
-                    "BracketsOpen": 0,
-                    "Operator": "Or",
-                    "Type": "ProgressItem",
-                    "Value": "Glove2"
                 }
             ]
         },
