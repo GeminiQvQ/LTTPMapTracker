@@ -376,6 +376,7 @@ namespace LTTPMapTracker
 
 		// Sync location data.
 		sync_to_progress(entity_item);
+		sync_from_progress();
 	}
 
 
@@ -425,6 +426,10 @@ namespace LTTPMapTracker
 				if (progress_location_data.m_is_pendant_green) index = 3;
 				if (progress_location_data.m_is_pendant) index = 4;
 				item->set_entity_index(index);
+				
+				auto data = item->get_data(index);
+				data.m_alpha = (progress_location->get().m_cleared ? 1.0f : 0.3f);
+				item->set_data(index, data);
 			}
 
 			if (component == "Chest")
