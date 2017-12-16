@@ -35,7 +35,6 @@ namespace LTTPMapTracker
 
 		// Items
 		void								add_item		(EntityWidgetItem& item, QString group, int row);
-		void								remove_item		(EntityWidgetItem& item);
 		void								clear			();
 
 		// Utility

@@ -92,7 +92,7 @@ namespace LTTPMapTracker
 		return (m_internal->m_schema != nullptr && !parent.isValid() ? m_internal->m_schema->items().get().size() : 0);
 	}
 
-	int SchemaItemListModel::columnCount(const QModelIndex& parent) const
+	int SchemaItemListModel::columnCount(const QModelIndex& /*parent*/) const
 	{
 		return 2;
 	}

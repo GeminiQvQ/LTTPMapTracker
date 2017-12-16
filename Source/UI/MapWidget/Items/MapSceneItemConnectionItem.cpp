@@ -70,7 +70,7 @@ namespace LTTPMapTracker
 		QGraphicsLineItem::paint(painter, option, widget);
 	}
 
-	void MapSceneItemConnectionItem::mousePressEvent(QGraphicsSceneMouseEvent* event)
+	void MapSceneItemConnectionItem::mousePressEvent(QGraphicsSceneMouseEvent* /*event*/)
 	{
 		if (QApplication::keyboardModifiers() & Qt::SHIFT)
 		{

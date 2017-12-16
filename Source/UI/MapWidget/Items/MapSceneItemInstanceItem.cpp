@@ -160,8 +160,8 @@ namespace LTTPMapTracker
 
 			if (data.m_location_entrance != nullptr)
 			{
-				auto pixmap = data.m_location_entrance->m_image;
-				painter.drawPixmap(rect.bottomRight() - QPoint(pixmap.width() - 1, pixmap.height() - 1), pixmap);
+				auto entrance_pixmap = data.m_location_entrance->m_image;
+				painter.drawPixmap(rect.bottomRight() - QPoint(pixmap.width() - 1, entrance_pixmap.height() - 1), entrance_pixmap);
 			}
 		}
 		else

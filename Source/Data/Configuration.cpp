@@ -24,7 +24,7 @@ namespace LTTPMapTracker
 		json["SettingsOverrides"] = get_relative_path(m_settings_overrides);
 	}
 
-	Result ConfigurationData::deserialise(const QJsonObject& json, int version)
+	Result ConfigurationData::deserialise(const QJsonObject& json, int /*version*/)
 	{
 		Result result;
 

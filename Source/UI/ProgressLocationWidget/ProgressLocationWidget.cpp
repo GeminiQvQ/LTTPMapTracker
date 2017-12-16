@@ -177,9 +177,9 @@ namespace LTTPMapTracker
 			}
 
 			// Create items.
-			for (int i = 0; i < locations.size(); ++i)
+			for (int location_index = 0; location_index < locations.size(); ++location_index)
 			{
-				auto& location_data = locations[i];
+				auto& location_data = locations[location_index];
 				auto location = location_data.m_location;
 
 				for (auto component : location_data.m_components)
@@ -318,7 +318,7 @@ namespace LTTPMapTracker
 					
 					if (!data_list.isEmpty())
 					{
-						add_item(*new EntityWidgetItem(data_list), name, i);
+						add_item(*new EntityWidgetItem(data_list), name, location_index);
 					}
 				}
 			}

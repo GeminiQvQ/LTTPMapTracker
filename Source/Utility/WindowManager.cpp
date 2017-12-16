@@ -100,9 +100,9 @@ namespace Utility
 
 		m_internal->m_menu.clear();
 
-		for (auto dock_widget : m_internal->m_dock_widgets)
+		for (auto dock_widget_ : m_internal->m_dock_widgets)
 		{
-			m_internal->m_menu.addAction(dock_widget->toggleViewAction());
+			m_internal->m_menu.addAction(dock_widget_->toggleViewAction());
 		}
 
 		m_internal->m_menu.addSeparator();

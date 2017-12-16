@@ -653,7 +653,7 @@ namespace LTTPMapTracker
 	// Qt Events
 	//================================================================================
 
-	void MainWindow::showEvent(QShowEvent* event)
+	void MainWindow::showEvent(QShowEvent* /*event*/)
 	{
 		bool initialised = property("Initialized").toBool();
 		if (!initialised)

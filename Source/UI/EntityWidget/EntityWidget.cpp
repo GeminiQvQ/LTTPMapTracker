@@ -186,11 +186,6 @@ namespace LTTPMapTracker
 		m_internal->m_items << &item;
 	}
 
-	void EntityWidget::remove_item(EntityWidgetItem& item)
-	{
-
-	}
-
 	void EntityWidget::clear()
 	{
 		for (auto& entry : m_internal->m_groups)

@@ -473,7 +473,7 @@ namespace Utility
 
 	//--------------------------------------------------------------------------------
 
-	void MDEButton::set_data(const ModelDataEntry& entry)
+	void MDEButton::set_data(const ModelDataEntry& /*entry*/)
 	{
 	}
 

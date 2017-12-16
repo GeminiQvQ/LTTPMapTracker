@@ -299,8 +299,8 @@ namespace LTTPMapTracker
 					}
 				}
 
-				int index = type_names.indexOf(rule_entry.m_value);
-				auto display_name = (index >= 0 ? display_names[index] : QString());
+				int type_name_index = type_names.indexOf(rule_entry.m_value);
+				auto display_name = (type_name_index >= 0 ? display_names[type_name_index] : QString());
 
 				ModelData data;
 				ModelDataEntry entry;
@@ -368,7 +368,7 @@ namespace LTTPMapTracker
 		return QVariant();
 	}
 
-	bool SchemaRulePropertiesModel::setData(const QModelIndex& index, const QVariant& value, int role)
+	bool SchemaRulePropertiesModel::setData(const QModelIndex& index, const QVariant& value, int /*role*/)
 	{
 		auto rule_entry = m_internal->m_rule->get().m_entries[index.row()];
 
@@ -392,8 +392,8 @@ namespace LTTPMapTracker
 			auto type_names = model_data.get_attribute(ModelDataAttribute::Custom1).toStringList();
 			auto display_names = model_data.get_attribute(ModelDataAttribute::Enum).toStringList();
 
-			int index = display_names.indexOf(model_data.get_value().toString());
-			auto type_name = type_names[index];
+			int display_name_index = display_names.indexOf(model_data.get_value().toString());
+			auto type_name = type_names[display_name_index];
 
 			rule_entry.m_value = type_name;
 		}

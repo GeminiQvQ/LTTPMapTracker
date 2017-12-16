@@ -237,8 +237,8 @@ namespace LTTPMapTracker
 				continue;
 			}
 
-			auto item = m_internal->m_instance->progress_items().find(entity_data.m_entity);
-			if (item == nullptr)
+			auto progress_item = m_internal->m_instance->progress_items().find(entity_data.m_entity);
+			if (progress_item == nullptr)
 			{
 				auto item = m_internal->m_item_db.get_item(entity_data.m_entity);
 				if (item != nullptr)
@@ -248,9 +248,9 @@ namespace LTTPMapTracker
 			}
 			else
 			{
-				auto item_data = item->get();
+				auto item_data = progress_item->get();
 				item_data.m_num++;
-				item->set(item_data);
+				progress_item->set(item_data);
 			}
 		}
 	}

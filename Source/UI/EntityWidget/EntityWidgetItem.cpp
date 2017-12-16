@@ -162,7 +162,7 @@ namespace LTTPMapTracker
 		setPos(rect.topLeft());
 	}
 
-	QSizeF EntityWidgetItem::sizeHint(Qt::SizeHint which, const QSizeF& /*constraint*/) const
+	QSizeF EntityWidgetItem::sizeHint(Qt::SizeHint /*which*/, const QSizeF& /*constraint*/) const
 	{
 		return pixmap().size();
 	}

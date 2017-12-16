@@ -231,7 +231,7 @@ namespace LTTPMapTracker
 		clamp_zoom_levels();
 	}
 
-	void MapView::resizeEvent(QResizeEvent* event)
+	void MapView::resizeEvent(QResizeEvent* /*event*/)
 	{
 		clamp_zoom_levels();
 	}

@@ -211,7 +211,7 @@ namespace LTTPMapTracker
 		beginInsertRows(QModelIndex(), index, index);
 	}
 
-	void SchemaRuleListModel::slot_rule_added(int index)
+	void SchemaRuleListModel::slot_rule_added(int /*index*/)
 	{
 		endInsertRows();
 	}
@@ -221,7 +221,7 @@ namespace LTTPMapTracker
 		beginRemoveRows(QModelIndex(), index, index);
 	}
 
-	void SchemaRuleListModel::slot_rule_removed(int index)
+	void SchemaRuleListModel::slot_rule_removed(int /*index*/)
 	{
 		endRemoveRows();
 	}
