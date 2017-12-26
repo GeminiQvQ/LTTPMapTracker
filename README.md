@@ -24,4 +24,4 @@ If you would like to assist with porting this to other platforms, please let me 
 
 ## Downloads
 
-[Latest (1.0.1)](https://github.com/GeminiQvQ/LTTPMapTracker/releases/download/1.0.1/LTTPMapTracker.zip)
+[Latest)](https://github.com/GeminiQvQ/LTTPMapTracker/releases/download/Latest/LTTPMapTracker.zip)
