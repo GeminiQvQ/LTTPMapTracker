@@ -15,6 +15,11 @@ namespace Utility
 
 		auto type = data.get_value().type();
 
+		if (type == QVariant::Bool)
+		{
+			editor = new MDEBool();
+		}
+
 		if (type == QVariant::Int)
 		{
 			if (data.has_attribute(ModelDataAttribute::Enum))

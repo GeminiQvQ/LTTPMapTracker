@@ -778,6 +778,11 @@
             "Color": "#ff3542",
             "Name": "DW - Death Mountain - East (Bottom)",
             "Rule": "DW - Death Mountain - East (Bottom)"
+        },
+        {
+            "Color": "#ff0575",
+            "Name": "DW - Death Mountain - Turtle Rock Ledge",
+            "Rule": "DW - Death Mountain - Turtle Rock Ledge"
         }
     ],
     "Rules": [
@@ -1689,7 +1694,7 @@
                     "BracketsOpen": 0,
                     "Operator": "And",
                     "Type": "SchemaRegion",
-                    "Value": "DW - Death Mountain - Turtle Rock (Ledge)"
+                    "Value": "DW - Death Mountain - Turtle Rock Ledge"
                 },
                 {
                     "BracketsClose": 0,
@@ -1902,6 +1907,32 @@
                     "Operator": "Or",
                     "Type": "ProgressItem",
                     "Value": "Lantern"
+                }
+            ]
+        },
+        {
+            "Name": "DW - Death Mountain - Turtle Rock Ledge",
+            "RuleEntries": [
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "And",
+                    "Type": "SchemaItem",
+                    "Value": "Death Mountain (Dark) - Turtle Rock (Main)"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "And",
+                    "Type": "ProgressItem",
+                    "Value": "CaneOfSomaria"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressItem",
+                    "Value": "FireRod"
                 }
             ]
         }

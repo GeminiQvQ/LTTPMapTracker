@@ -4,6 +4,7 @@
 #include "Utility/File.h"
 
 // Qt includes
+#include <QCheckBox>
 #include <QComboBox>
 #include <QFileDialog>
 #include <QLineEdit>
@@ -122,6 +123,43 @@ namespace Utility
 		Q_ASSERT(index >= 0 && index < m_internal->m_data.size());
 		editor->get_data(m_internal->m_data[index]);
 		ModelDataEditor::data_changed();
+	}
+
+
+
+	//================================================================================
+	// Bool
+	//================================================================================
+
+	struct MDEBool::Internal
+	{
+		QCheckBox* m_checkbox;
+	};
+
+	//--------------------------------------------------------------------------------
+
+	MDEBool::MDEBool()
+		: m_internal(std::make_unique<Internal>())
+	{
+		m_internal->m_checkbox = new QCheckBox();
+		connect(m_internal->m_checkbox, &QCheckBox::toggled, this, &MDEBool::data_changed);
+		layout()->addWidget(m_internal->m_checkbox);
+	}
+
+	MDEBool::~MDEBool()
+	{
+	}
+
+	//--------------------------------------------------------------------------------
+
+	void MDEBool::set_data(const ModelDataEntry& entry)
+	{
+		m_internal->m_checkbox->setChecked(entry.get_value().toBool());
+	}
+
+	void MDEBool::get_data(ModelDataEntry& entry) const
+	{
+		entry.set_value(m_internal->m_checkbox->isChecked());
 	}
 
 

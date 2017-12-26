@@ -69,6 +69,24 @@ namespace Utility
 	};
 
 
+	// Bool
+	//--------------------------------------------------------------------------------
+
+	class MDEBool : public ModelDataEditor
+	{
+	public:
+		MDEBool();
+		~MDEBool();
+
+		virtual void	set_data	(const ModelDataEntry& entry) override;
+		virtual void	get_data	(ModelDataEntry& entry) const override;
+
+	private:
+		struct Internal;
+		const std::unique_ptr<Internal> m_internal;
+	};
+
+
 	// Int
 	//--------------------------------------------------------------------------------
 
