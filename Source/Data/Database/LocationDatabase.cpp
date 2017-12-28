@@ -234,6 +234,10 @@ namespace LTTPMapTracker
 				auto part_name = (parts.size() > 1 ? parts[1] : parts[0]);
 
 				LocationRequirementType type = LocationRequirementType::ProgressItem;
+				if (part_type == "ProgressLocation")
+				{
+					type = LocationRequirementType::ProgressLocation;
+				}
 				if (part_type == "ProgressSpecial")
 				{
 					type = LocationRequirementType::ProgressSpecial;
@@ -246,6 +250,7 @@ namespace LTTPMapTracker
 				switch (type)
 				{
 				case LocationRequirementType::ProgressItem:
+				case LocationRequirementType::ProgressLocation:
 				default:
 					{
 						if (entity_db.get_entity(part_name) != nullptr)
@@ -306,6 +311,17 @@ namespace LTTPMapTracker
 					entry_result = std::any_of(progress_items.begin(), progress_items.end(), [&entry] (InstanceProgressItemCPtr progress_item)
 					{
 						return (progress_item->get().m_item->m_entity->m_type_name == entry.m_value.toString());
+					});
+				}
+				break;
+
+			case LocationRequirementType::ProgressLocation:
+				{
+					auto progress_locations = instance.progress_locations().get();
+					entry_result = std::any_of(progress_locations.begin(), progress_locations.end(), [&entry] (InstanceProgressLocationCPtr progress_location)
+					{
+						return (progress_location->get().m_location->m_entity->m_type_name == entry.m_value.toString() &&
+								progress_location->get().m_cleared);
 					});
 				}
 				break;

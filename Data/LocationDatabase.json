@@ -112,6 +112,10 @@
 			"TreasureEtc": 3,
 			"Requirements": [ "Bow", "Hookshot", "CaneOfSomaria?", "FireRod?" ]
 		},
+		{
+			"Entity": "Ganon",
+			"Requirements": [ "ProgressSpecial:Crystal7", "ProgressLocation:GT", "Sword2" ]
+		},		
 		
 		{
 			"Entity": "BombShop",
