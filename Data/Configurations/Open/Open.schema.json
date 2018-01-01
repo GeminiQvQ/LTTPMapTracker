@@ -240,7 +240,7 @@
             "PositionX": 0,
             "PositionY": -411,
             "Region": "LW - Main",
-            "Rule": "",
+            "Rule": "LW - Hyrule Castle - Agahnim's Tower",
             "RuleAccess": "Entrance"
         },
         {
@@ -1584,8 +1584,8 @@
                     "BracketsClose": 0,
                     "BracketsOpen": 0,
                     "Operator": "And",
-                    "Type": "SchemaItem",
-                    "Value": "Death Mountain (Dark) - Hookshot Cave (Exit)"
+                    "Type": "SchemaRegion",
+                    "Value": "DW - Death Mountain - Top"
                 },
                 {
                     "BracketsClose": 0,
@@ -1933,6 +1933,25 @@
                     "Operator": "Or",
                     "Type": "ProgressItem",
                     "Value": "FireRod"
+                }
+            ]
+        },
+        {
+            "Name": "LW - Hyrule Castle - Agahnim's Tower",
+            "RuleEntries": [
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressItem",
+                    "Value": "Sword2"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressItem",
+                    "Value": "MagicCape"
                 }
             ]
         }

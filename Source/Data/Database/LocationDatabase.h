@@ -26,6 +26,7 @@ namespace LTTPMapTracker
 	enum class LocationRequirementType
 	{
 		ProgressItem,
+		ProgressLocation,
 		ProgressSpecial
 	};
 

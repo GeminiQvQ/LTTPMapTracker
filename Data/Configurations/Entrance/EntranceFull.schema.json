@@ -438,7 +438,7 @@
             "PositionX": 0,
             "PositionY": -411,
             "Region": "LW - Hyrule Castle - Top",
-            "Rule": "",
+            "Rule": "LW - Hyrule Castle - Agahnim's Tower",
             "RuleAccess": "Entrance"
         },
         {
@@ -2662,6 +2662,25 @@
                     "Operator": "Or",
                     "Type": "ProgressItem",
                     "Value": "Shovel"
+                }
+            ]
+        },
+        {
+            "Name": "LW - Hyrule Castle - Agahnim's Tower",
+            "RuleEntries": [
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressItem",
+                    "Value": "Sword2"
+                },
+                {
+                    "BracketsClose": 0,
+                    "BracketsOpen": 0,
+                    "Operator": "Or",
+                    "Type": "ProgressItem",
+                    "Value": "MagicCape"
                 }
             ]
         }
