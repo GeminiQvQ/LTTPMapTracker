@@ -79,7 +79,7 @@ namespace LTTPMapTracker
 
 	int ConfigurationModel::rowCount(const QModelIndex& parent) const
 	{
-		return (m_internal->m_configuration != nullptr && !parent.isValid() ? 4 : 0);
+		return (m_internal->m_configuration != nullptr && !parent.isValid() ? 6 : 0);
 	}
 
 	int ConfigurationModel::columnCount(const QModelIndex& /*parent*/) const
@@ -121,8 +121,10 @@ namespace LTTPMapTracker
 			{
 			case 0: return "Configuration";
 			case 1: return "Schema";
-			case 2: return "Instance Template";
-			case 3: return "Settings Overrides";
+			case 2: return "Name";
+			case 3: return "Image";
+			case 4: return "Instance Template";
+			case 5: return "Settings Overrides";
 			}
 		}
 
@@ -148,6 +150,35 @@ namespace LTTPMapTracker
 
 			if (index.row() == 2)
 			{
+				if (role == Qt::DisplayRole || role == Qt::EditRole)
+				{
+					return m_internal->m_configuration->get().m_name;
+				}
+			}
+
+			if (index.row() == 3)
+			{
+				if (role == Qt::DisplayRole)
+				{
+					return get_relative_path(m_internal->m_configuration->get().m_image);
+				}
+
+				if (role == ModelDataRole)
+				{
+					ModelData data;
+					ModelDataEntry entry;
+					entry.set_value(get_relative_path(m_internal->m_configuration->get().m_image));
+					entry.set_attribute(ModelDataAttribute::File);
+					entry.set_attribute(ModelDataAttribute::FileFilter, "PNG Files (*.png)");
+					entry.set_attribute(ModelDataAttribute::FileDir, get_absolute_path("Data"));
+					data << entry;
+
+					return QVariant::fromValue(data);
+				}
+			}
+
+			if (index.row() == 4)
+			{
 				if (role == Qt::DisplayRole)
 				{
 					return get_relative_path(m_internal->m_configuration->get().m_instance_template);
@@ -167,7 +198,7 @@ namespace LTTPMapTracker
 				}
 			}
 
-			if (index.row() == 3)
+			if (index.row() == 5)
 			{
 				if (role == Qt::DisplayRole)
 				{
@@ -194,14 +225,28 @@ namespace LTTPMapTracker
 
 	bool ConfigurationModel::setData(const QModelIndex& index, const QVariant& value, int role)
 	{
-		if (index.row() == 2 && role == ModelDataRole)
+		if (index.row() == 2 && role == Qt::EditRole)
+		{
+			auto data = m_internal->m_configuration->get();
+			data.m_name = value.toString();
+			m_internal->m_configuration->set(data);
+		}
+
+		if (index.row() == 3 && role == ModelDataRole)
+		{
+			auto data = m_internal->m_configuration->get();
+			data.m_image = value.value<ModelData>()[0].get_value().toString();
+			m_internal->m_configuration->set(data);
+		}
+
+		if (index.row() == 4 && role == ModelDataRole)
 		{
 			auto data = m_internal->m_configuration->get();
 			data.m_instance_template = value.value<ModelData>()[0].get_value().toString();
 			m_internal->m_configuration->set(data);
 		}
 
-		if (index.row() == 3 && role == ModelDataRole)
+		if (index.row() == 5 && role == ModelDataRole)
 		{
 			auto data = m_internal->m_configuration->get();
 			data.m_settings_overrides = value.value<ModelData>()[0].get_value().toString();

@@ -20,6 +20,8 @@ namespace LTTPMapTracker
 	void ConfigurationData::serialise(QJsonObject& json) const
 	{
 		json["Schema"] = get_relative_path(m_schema->get_filename());
+		json["Name"] = m_name;
+		json["Image"]= get_relative_path(m_image);
 		json["InstanceTemplate"] = get_relative_path(m_instance_template);
 		json["SettingsOverrides"] = get_relative_path(m_settings_overrides);
 	}
@@ -36,6 +38,12 @@ namespace LTTPMapTracker
 			result << m_schema->load(get_absolute_path(schema_filename));
 		}
 		
+		result << json_read(json, "Name", m_name, QString());
+
+		QString image_filename;
+		result << json_read(json, "Image", image_filename, QString());
+		m_image = get_absolute_path(image_filename);
+
 		QString instance_template_filename;
 		result << json_read(json, "InstanceTemplate", instance_template_filename, QString());
 		m_instance_template = get_absolute_path(instance_template_filename);

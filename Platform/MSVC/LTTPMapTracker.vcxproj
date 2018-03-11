@@ -385,6 +385,8 @@
     <ClCompile Include="..\..\Source\UI\SchemaRuleWidget\SchemaRulePropertiesModel.cpp" />
     <ClCompile Include="..\..\Source\UI\SchemaRuleWidget\SchemaRuleWidget.cpp" />
     <ClCompile Include="..\..\Source\UI\SettingsWidget\SettingsWidget.cpp" />
+    <ClCompile Include="..\..\Source\UI\StartupWidget\StartupModel.cpp" />
+    <ClCompile Include="..\..\Source\UI\StartupWidget\StartupWidget.cpp" />
     <ClCompile Include="..\..\Source\Utility\File.cpp" />
     <ClCompile Include="..\..\Source\Utility\JSON.cpp" />
     <ClCompile Include="..\..\Source\Utility\ModelData\ModelData.cpp" />
@@ -707,7 +709,10 @@
     <ClInclude Include="..\..\Source\Data\Database\ItemDatabase.h" />
     <ClInclude Include="..\..\Source\Data\Database\LocationDatabase.h" />
     <ClInclude Include="..\..\Source\PCH.h" />
+    <ClInclude Include="..\..\Source\UI\StartupWidget\StartupModel.h" />
+    <ClInclude Include="..\..\Source\UI\StartupWidget\StartupWidget.h" />
     <ClInclude Include="GeneratedFiles\ui_SettingsWidget.h" />
+    <ClInclude Include="GeneratedFiles\ui_StartupWidget.h" />
     <CustomBuild Include="..\..\Source\Data\Instance\Instance.h">
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing Instance.h...</Message>
@@ -1242,6 +1247,26 @@
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="LTTPMapTracker.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\Source\UI\StartupWidget\StartupWidget.ui">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\uic.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Uic%27ing %(Identity)...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\ui_%(Filename).h;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\uic.exe" -o ".\GeneratedFiles\ui_%(Filename).h" "%(FullPath)"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\uic.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Uic%27ing %(Identity)...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\GeneratedFiles\ui_%(Filename).h;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(QTDIR)\bin\uic.exe" -o ".\GeneratedFiles\ui_%(Filename).h" "%(FullPath)"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\uic.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Uic%27ing %(Identity)...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\ui_%(Filename).h;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\uic.exe" -o ".\GeneratedFiles\ui_%(Filename).h" "%(FullPath)"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\uic.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Uic%27ing %(Identity)...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles\ui_%(Filename).h;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(QTDIR)\bin\uic.exe" -o ".\GeneratedFiles\ui_%(Filename).h" "%(FullPath)"</Command>
+    </CustomBuild>
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{B12702AD-ABFB-343A-A199-8E24837244A3}</ProjectGuid>

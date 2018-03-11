@@ -1,5 +1,7 @@
 {
+    "Image": "Data/Configurations/Entrance/EntranceFull.png",
     "InstanceTemplate": "",
+    "Name": "Entrance",
     "Schema": "Data/Configurations/Entrance/EntranceFull.schema.json",
     "SettingsOverrides": "",
     "Version": 1

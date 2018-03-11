@@ -13,6 +13,9 @@ namespace LTTPMapTracker
 
 	struct SettingsData
 	{
+		bool	m_general_startup_show;
+		bool	m_general_startup_autorun;
+
 		bool	m_general_autosave_temp;
 		bool	m_general_autosave_main;
 		int		m_general_autosave_interval;

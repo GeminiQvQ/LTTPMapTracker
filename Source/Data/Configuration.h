@@ -13,11 +13,13 @@ namespace LTTPMapTracker
 
 	struct ConfigurationData
 	{
+		QString		m_name;
+		QString		m_image;
 		SchemaPtr	m_schema;
 		InstancePtr m_instance;
 		QString		m_instance_template;
 		QString		m_settings_overrides;
-
+		
 				ConfigurationData	();
 		void	serialise			(QJsonObject& json) const;
 		Result	deserialise			(const QJsonObject& json, int version);

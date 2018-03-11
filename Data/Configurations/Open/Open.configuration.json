@@ -1,5 +1,7 @@
 {
+    "Image": "Data/Configurations/Open/Open.png",
     "InstanceTemplate": "Data/Configurations/Open/Open.instance.json",
+    "Name": "Open",
     "Schema": "Data/Configurations/Open/Open.schema.json",
     "SettingsOverrides": "",
     "Version": 1

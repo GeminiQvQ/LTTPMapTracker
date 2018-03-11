@@ -38,6 +38,8 @@ namespace LTTPMapTracker
 
 	void settings_to_ui(const Settings& settings, UI& ui)
 	{
+		ui.general_startup_show->setChecked(settings.get().m_general_startup_show);
+		ui.general_startup_autorun->setChecked(settings.get().m_general_startup_autorun);
 		ui.general_autosave_temp->setChecked(settings.get().m_general_autosave_temp);
 		ui.general_autosave_main->setChecked(settings.get().m_general_autosave_main);
 		ui.general_autosave_interval->setValue(settings.get().m_general_autosave_interval);
@@ -65,6 +67,8 @@ namespace LTTPMapTracker
 	void ui_to_settings(Settings& settings, const UI& ui)
 	{
 		auto data = settings.get();
+		data.m_general_startup_show = ui.general_startup_show->isChecked();
+		data.m_general_startup_autorun = ui.general_startup_autorun->isChecked();
 		data.m_general_autosave_temp = ui.general_autosave_temp->isChecked();
 		data.m_general_autosave_main = ui.general_autosave_main->isChecked();
 		data.m_general_autosave_interval = ui.general_autosave_interval->value();

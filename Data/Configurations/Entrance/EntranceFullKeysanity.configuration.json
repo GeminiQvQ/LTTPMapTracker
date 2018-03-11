@@ -1,5 +1,7 @@
 {
+    "Image": "Data/Configurations/Entrance/EntranceFullKeysanity.png",
     "InstanceTemplate": "",
+    "Name": "Entrance (Keysanity)",
     "Schema": "Data/Configurations/Entrance/EntranceFull.schema.json",
     "SettingsOverrides": "Data/Configurations/Entrance/EntranceFullKeysanity.ini",
     "Version": 1

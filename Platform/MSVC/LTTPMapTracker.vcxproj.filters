@@ -85,6 +85,9 @@
     <Filter Include="Source\UI\MapWidget\Items\Common">
       <UniqueIdentifier>{eee8b90b-b951-459e-82f5-3326c376880f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\UI\StartupWidget">
+      <UniqueIdentifier>{d1336a78-35e9-475d-87c8-9d71bdb16cc2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="..\..\Resource\QDarkStyle.qrc">
@@ -182,6 +185,9 @@
     </CustomBuild>
     <CustomBuild Include="..\..\Source\UI\SettingsWidget\SettingsWidget.ui">
       <Filter>Source\UI\SettingsWidget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Source\UI\StartupWidget\StartupWidget.ui">
+      <Filter>Source\UI\StartupWidget</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
@@ -661,6 +667,12 @@
     <ClCompile Include="..\..\Source\PCH.cpp">
       <Filter>Source</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\UI\StartupWidget\StartupWidget.cpp">
+      <Filter>Source\UI\StartupWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UI\StartupWidget\StartupModel.cpp">
+      <Filter>Source\UI\StartupWidget</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GeneratedFiles\ui_MainWindow.h">
@@ -755,6 +767,15 @@
     </ClInclude>
     <ClInclude Include="..\..\Source\PCH.h">
       <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UI\StartupWidget\StartupWidget.h">
+      <Filter>Source\UI\StartupWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UI\StartupWidget\StartupModel.h">
+      <Filter>Source\UI\StartupWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_StartupWidget.h">
+      <Filter>Generated Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

@@ -12,7 +12,9 @@ namespace LTTPMapTracker
 	//================================================================================
 
 	SettingsData::SettingsData()
-		: m_general_autosave_temp(true)
+		: m_general_startup_show(true)
+		, m_general_startup_autorun(true)
+		, m_general_autosave_temp(true)
 		, m_general_autosave_main(false)
 		, m_general_autosave_interval(60)
 		, m_general_layout_instance_items("Data/Layouts/InstanceItems.layout.json")
@@ -54,6 +56,8 @@ namespace LTTPMapTracker
 		settings.beginGroup("Settings");
 
 		settings.beginGroup("General");
+		m_data.m_general_startup_show = settings.value("StartupShow", m_data.m_general_startup_show).toBool();
+		m_data.m_general_startup_autorun = settings.value("StartupAutorun", m_data.m_general_startup_autorun).toBool();
 		m_data.m_general_autosave_temp = settings.value("AutosaveTemp", m_data.m_general_autosave_temp).toBool();
 		m_data.m_general_autosave_main = settings.value("AutosaveMain", m_data.m_general_autosave_main).toBool();
 		m_data.m_general_autosave_interval = settings.value("AutosaveInterval", m_data.m_general_autosave_interval).toInt();
@@ -94,6 +98,8 @@ namespace LTTPMapTracker
 		settings.beginGroup("Settings");
 
 		settings.beginGroup("General");
+		settings.setValue("StartupShow", m_data.m_general_startup_show);
+		settings.setValue("StartupAutorun", m_data.m_general_startup_autorun);
 		settings.setValue("AutosaveTemp", m_data.m_general_autosave_temp);
 		settings.setValue("AutosaveMain", m_data.m_general_autosave_main);
 		settings.setValue("AutosaveInterval", m_data.m_general_autosave_interval);

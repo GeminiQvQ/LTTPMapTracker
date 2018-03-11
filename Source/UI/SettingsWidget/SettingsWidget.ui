@@ -40,6 +40,43 @@
       </attribute>
       <layout class="QVBoxLayout" name="verticalLayout_3">
        <item>
+        <widget class="QGroupBox" name="groupBox_9">
+         <property name="title">
+          <string>Startup Dialog</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_10">
+          <item row="0" column="1">
+           <widget class="QCheckBox" name="general_startup_show">
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_23">
+            <property name="text">
+             <string>Enabled</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="label_24">
+            <property name="text">
+             <string>Auto-run</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QCheckBox" name="general_startup_autorun">
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
         <widget class="QGroupBox" name="groupBox_4">
          <property name="title">
           <string>Auto-save</string>
@@ -507,7 +544,18 @@
  <layoutdefault spacing="6" margin="11"/>
  <tabstops>
   <tabstop>tab_widget</tabstop>
+  <tabstop>general_startup_show</tabstop>
+  <tabstop>general_startup_autorun</tabstop>
+  <tabstop>general_autosave_temp</tabstop>
+  <tabstop>general_autosave_main</tabstop>
+  <tabstop>general_autosave_interval</tabstop>
+  <tabstop>editor_show_unused_regions</tabstop>
+  <tabstop>editor_show_unused_rules</tabstop>
   <tabstop>map_background_opacity</tabstop>
+  <tabstop>map_connection_thickness</tabstop>
+  <tabstop>map_item_size</tabstop>
+  <tabstop>map_item_cleared_opacity</tabstop>
+  <tabstop>map_item_entity_item_requirement</tabstop>
   <tabstop>button_ok</tabstop>
   <tabstop>button_cancel</tabstop>
  </tabstops>

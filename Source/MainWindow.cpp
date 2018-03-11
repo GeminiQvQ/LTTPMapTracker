@@ -10,6 +10,7 @@
 #include "UI/SchemaRegionWidget/SchemaRegionWidget.h"
 #include "UI/SchemaRuleWidget/SchemaRuleWidget.h"
 #include "UI/SettingsWidget/SettingsWidget.h"
+#include "UI/StartupWidget/StartupWidget.h"
 #include "Data/Instance/Instance.h"
 #include "Data/Schema/Schema.h"
 #include "Data/DataModel.h"
@@ -660,6 +661,20 @@ namespace LTTPMapTracker
 		{
 			set_tracker_mode(TrackerMode::Schema);
 			setProperty("Initialized", true);
+
+			if (m_internal->m_settings.get().m_general_startup_show)
+			{
+				StartupWidget startup_widget(m_internal->m_editor_interface, this);
+				
+				if (startup_widget.exec() == QDialog::Accepted)
+				{
+					if (load_configuration(startup_widget.get_selected_configuration()) &&
+						m_internal->m_settings.get().m_general_startup_autorun)
+					{
+						start_instance();
+					}
+				}
+			}
 		}
 	}
 	
